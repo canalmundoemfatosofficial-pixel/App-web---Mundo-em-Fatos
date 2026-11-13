@@ -19,4 +19,4 @@ export function paraVoce(artigos, d) {
   const score = a => (d.aulasConcluidas.includes(a.id) ? 0 : 10) + Math.min(cont[a.categoria] || 0, 3) + Math.random() * 3
   return [...artigos].sort((x, y) => score(y) - score(x))
 }
-export function ytId(url) { const m = /(?:v=|youtu\.be\/|embed\/)([\w-]{11})/.exec(url || ''); return m ? m[1] : null }
+export function ytId(url) { const m = /(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/.exec(url || ''); return m ? m[1] : null }
