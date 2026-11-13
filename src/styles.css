@@ -24,3 +24,5 @@ nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;b
 .foco{display:flex;flex-direction:column;align-items:center;gap:12px}.orbita{width:220px}.tempo{font-size:64px;font-weight:700;color:var(--amar)}.row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}.foco iframe{width:100%;max-width:560px;aspect-ratio:16/9;border:0;border-radius:12px}
 .stat{background:var(--card);border-radius:14px;padding:14px;margin-bottom:10px;display:flex;flex-direction:column}.stat b{font-size:24px;color:var(--amar)}.stat small{color:var(--sub)}
 @keyframes giro{to{transform:rotate(360deg)}}@keyframes pulo{50%{transform:translateY(-4px)}}
+
+.foco a{color:var(--amar);text-decoration:none;font-weight:600;text-align:center;padding:12px 0;display:block}
