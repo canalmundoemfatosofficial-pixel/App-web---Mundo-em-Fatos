@@ -36,6 +36,10 @@ const quiz={
 'como-nasce-um-pais':[
  Q('Quantos requisitos a Convenção de Montevidéu (1933) lista para um Estado?',['Dois','Quatro','Sete'],1,'População permanente, território definido, governo e capacidade de se relacionar com outros países.'),
  Q('Como a Tchecoslováquia virou dois países em 1993?',['Por uma guerra civil','Por uma separação amigável, sem guerra','Por decisão da ONU'],1,'A República Tcheca e a Eslováquia nasceram de um divórcio amigável, sem guerra.'),
- Q('Qual é o país mais novo a entrar na ONU, segundo o vídeo?',['Kosovo','Sudão do Sul','Eslováquia'],1,'O Sudão do Sul foi aceito em julho de 2011, como o 193º membro. O Kosovo ainda está fora da ONU.')]};
+ Q('Qual é o país mais novo a entrar na ONU, segundo o vídeo?',['Kosovo','Sudão do Sul','Eslováquia'],1,'O Sudão do Sul foi aceito em julho de 2011, como o 193º membro. O Kosovo ainda está fora da ONU.')],
+'formula-de-bhaskara':[
+ Q('Quais números você precisa identificar numa equação de segundo grau?',['a, b e c','x e y','Só o c'],0,'Na forma ax² + bx + c = 0, o a, o b e o c são os três valores de que a fórmula precisa.'),
+ Q('Qual é o cálculo do delta?',['b² − 4ac','b² + 4ac','2a − b'],0,'Delta = b² − 4ac. É o primeiro passo da fórmula.'),
+ Q('Na equação x² − 5x + 6 = 0, quais são as respostas?',['1 e 6','2 e 3','−2 e −3'],1,'Delta = 25 − 24 = 1; x = (5 ± 1) / 2, ou seja, 3 e 2.')]};
 let n=0;for(const a of L){if(quiz[a.id]){a.quiz=quiz[a.id];a.pontosAConfirmar=(a.pontosAConfirmar||[]).filter(x=>!/Quiz/.test(x));n++}}
 fs.writeFileSync(f,JSON.stringify(L,null,2));console.log('quizzes em',n,'artigos; sem quiz:',L.filter(a=>!a.quiz.length).map(a=>a.id))

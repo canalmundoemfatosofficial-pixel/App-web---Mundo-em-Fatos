@@ -1140,5 +1140,108 @@
     ],
     "pontosAConfirmar": [],
     "publicadoEm": "2026-11-24T17:55:00-03:00"
+  },
+  {
+    "id": "formula-de-bhaskara",
+    "titulo": "Fórmula de Bhaskara sem medo",
+    "area": "Matemática",
+    "categoria": "Matemática",
+    "tempoLeituraMinutos": 1,
+    "dataPublicacao": "2026-11-14",
+    "imagemCapa": "./assets/capas/formula-de-bhaskara-capa.webp",
+    "textoCompletoBackup": "## ax² + bx + c = 0 · equação do 2º grau\n\nEquação de segundo grau assusta muita gente na sala de aula. Mas a fórmula de Bhaskara é só uma receita de três passos. Vamos desmontar o monstro?\n\n## a · b · c · os três números\n\nToda equação de segundo grau tem esse formato: a x ao quadrado, mais b x, mais c, igual a zero. O a, o b e o c são só números. Esses três valores são tudo o que você precisa.\n\n## Δ = b² − 4ac · primeiro passo\n\nPrimeiro passo: calcule o delta. É o b ao quadrado, menos quatro vezes a vezes c. Segundo passo: x é igual a menos b, mais ou menos a raiz do delta, tudo dividido por dois a.\n\n## x² − 5x + 6 = 0 · a = 1, b = −5, c = 6\n\nVamos testar com x ao quadrado, menos cinco x, mais seis, igual a zero. Aqui, a vale um, b vale menos cinco e c vale seis.\n\n## Δ = 1 · 25 − 24\n\nO delta é vinte e cinco, menos vinte e quatro, igual a um. Então x é cinco, mais ou menos um, dividido por dois.\n\n## x = 2 ou x = 3 · as duas raízes\n\nCom o mais, dá seis sobre dois, que é três. Com o menos, dá quatro sobre dois, que é dois. As respostas são dois e três. E o delta conta uma história: se for positivo, são duas respostas. Se for zero, uma só. Se for negativo, não existe resposta entre os números reais.\n\n## SÉC. XII · Bhaskara, Índia\n\nCuriosidade: o nome vem de Bhaskara, um matemático indiano do século doze. Mas ele não inventou a fórmula sozinho: ela é fruto de séculos de matemáticos, de babilônios a indianos e árabes.\n\n## Qual conta de matemática te dá mais medo\n\nQual conta de matemática te dá mais medo? Conta nos comentários. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-01.webp",
+        "tituloCard": "ax² + bx + c = 0 · equação do 2º grau",
+        "textoCard": "Equação de segundo grau assusta muita gente na sala de aula. Mas a fórmula de Bhaskara é só uma receita de três passos. Vamos desmontar o monstro?"
+      },
+      {
+        "ordem": 2,
+        "cenario": "lousa-formula",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-02.webp",
+        "tituloCard": "a · b · c · os três números",
+        "textoCard": "Toda equação de segundo grau tem esse formato: a x ao quadrado, mais b x, mais c, igual a zero. O a, o b e o c são só números. Esses três valores são tudo o que você precisa."
+      },
+      {
+        "ordem": 3,
+        "cenario": "lousa-formula",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-03.webp",
+        "tituloCard": "Δ = b² − 4ac · primeiro passo",
+        "textoCard": "Primeiro passo: calcule o delta. É o b ao quadrado, menos quatro vezes a vezes c. Segundo passo: x é igual a menos b, mais ou menos a raiz do delta, tudo dividido por dois a."
+      },
+      {
+        "ordem": 4,
+        "cenario": "lousa-exemplo",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-04.webp",
+        "tituloCard": "x² − 5x + 6 = 0 · a = 1, b = −5, c = 6",
+        "textoCard": "Vamos testar com x ao quadrado, menos cinco x, mais seis, igual a zero. Aqui, a vale um, b vale menos cinco e c vale seis."
+      },
+      {
+        "ordem": 5,
+        "cenario": "lousa-exemplo",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-05.webp",
+        "tituloCard": "Δ = 1 · 25 − 24",
+        "textoCard": "O delta é vinte e cinco, menos vinte e quatro, igual a um. Então x é cinco, mais ou menos um, dividido por dois."
+      },
+      {
+        "ordem": 6,
+        "cenario": "lousa-exemplo",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-06.webp",
+        "tituloCard": "x = 2 ou x = 3 · as duas raízes",
+        "textoCard": "Com o mais, dá seis sobre dois, que é três."
+      },
+      {
+        "ordem": 7,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-07.webp",
+        "tituloCard": "SÉC. XII · Bhaskara, Índia",
+        "textoCard": "Curiosidade: o nome vem de Bhaskara, um matemático indiano do século doze. Mas ele não inventou a fórmula sozinho: ela é fruto de séculos de matemáticos, de babilônios a indianos e árabes."
+      },
+      {
+        "ordem": 8,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/formula-de-bhaskara-08.webp",
+        "tituloCard": "Qual conta de matemática te dá mais medo",
+        "textoCard": "Qual conta de matemática te dá mais medo? Conta nos comentários. Segue para ficar por dentro do Mundo."
+      }
+    ],
+    "youtubeUrl": "https://youtube.com/shorts/aWejxtsFjVM",
+    "quiz": [
+      {
+        "pergunta": "Quais números você precisa identificar numa equação de segundo grau?",
+        "opcoes": [
+          "a, b e c",
+          "x e y",
+          "Só o c"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Na forma ax² + bx + c = 0, o a, o b e o c são os três valores de que a fórmula precisa."
+      },
+      {
+        "pergunta": "Qual é o cálculo do delta?",
+        "opcoes": [
+          "b² − 4ac",
+          "b² + 4ac",
+          "2a − b"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Delta = b² − 4ac. É o primeiro passo da fórmula."
+      },
+      {
+        "pergunta": "Na equação x² − 5x + 6 = 0, quais são as respostas?",
+        "opcoes": [
+          "1 e 6",
+          "2 e 3",
+          "−2 e −3"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Delta = 25 − 24 = 1; x = (5 ± 1) / 2, ou seja, 3 e 2."
+      }
+    ],
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-13T17:30:00-03:00"
   }
 ]

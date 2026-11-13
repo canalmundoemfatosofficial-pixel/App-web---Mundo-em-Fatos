@@ -6,7 +6,7 @@ import { Card, Sugestoes, Leitor } from './components/partes.jsx'
 import { Foco, Progresso } from './components/telas.jsx'
 
 const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
-const ICONES = { 'História': '🏛️', 'Ciência': '🔬', 'Astronomia': '🌌', 'Geopolítica': '🌍', 'Curiosidades': '💡' }
+const ICONES = { 'História': '🏛️', 'Ciência': '🔬', 'Astronomia': '🌌', 'Geopolítica': '🌍', 'Curiosidades': '💡', 'Matemática': '➗' }
 
 export default function App() {
   const [dados, setDados] = useState(load)

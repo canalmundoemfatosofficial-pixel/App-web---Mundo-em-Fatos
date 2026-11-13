@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path'),cp=require('child_process');
 const POST='C:/Users/Win11/Desktop/Mundo em Fatos v2/Postagens/';
 // uso: node tools/gerar_artigo_unico.cjs PASTA_EM_POSTAGENS MONTAGEM AREA_ASCII SLUG   (so este tema; nao mexe nos outros)
-const ac=s=>s.replace('Geopolitica','Geopolítica').replace('Ciencia','Ciência').replace('Historia','História');
+const ac=s=>s.replace('Geopolitica','Geopolítica').replace('Ciencia','Ciência').replace('Historia','História').replace('Matematica','Matemática');
 const TEMAS=[[process.argv[2],process.argv[3],ac(process.argv[4]),ac(process.argv[4]),process.argv[5]]];
 const out='src/data/artigos.json';const lista=JSON.parse(fs.readFileSync(out,'utf8').replace(/^\uFEFF/,''));
 for(const [pasta,mont,area,cat,pre] of TEMAS){
