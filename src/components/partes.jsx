@@ -19,12 +19,15 @@ export function Card({ a, done, onOpen }) {
   )
 }
 
-export function Sugestoes({ endpoint }) {
+export function Sugestoes({ url, campo }) {
   const [t, setT] = useState(''); const [s, setS] = useState('')
   const enviar = async e => {
     e.preventDefault(); if (!t.trim()) return
-    if (!endpoint) { setS('Envio ainda não configurado.'); return }
-    try { const r = await fetch(endpoint, { method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, body: JSON.stringify({ sugestao: t }) }); setS(r.ok ? 'Obrigado! 💜' : 'Falhou, tente de novo.'); if (r.ok) setT('') } catch { setS('Sem conexão.') }
+    if (!url) { setS('Envio ainda não configurado.'); return }
+    try { // Google Forms não devolve resposta legível (no-cors): confirmamos o envio sem ler o retorno
+      await fetch(url, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ [campo]: t.trim() }) })
+      setS('Obrigado! 💜'); setT('')
+    } catch { setS('Sem conexão. Tente de novo.') }
   }
   return (
     <form className="sug" onSubmit={enviar}>
