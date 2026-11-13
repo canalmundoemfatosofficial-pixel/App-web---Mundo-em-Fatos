@@ -1037,5 +1037,110 @@
     ],
     "pontosAConfirmar": [],
     "publicadoEm": "2026-11-11T17:55:00-03:00"
+  },
+  {
+    "id": "como-nasce-um-pais",
+    "titulo": "Como nasce um país?",
+    "area": "Geopolítica",
+    "categoria": "Geopolítica",
+    "tempoLeituraMinutos": 1,
+    "dataPublicacao": "2026-11-24",
+    "imagemCapa": "./assets/capas/como-nasce-um-pais-capa.webp",
+    "textoCompletoBackup": "## 193 · países na ONU\n\nQuantos países existem? Cento e noventa e três, pelo menos para a ONU. Mas ninguém recebe um diploma de país. Então, como é que um país nasce?\n\n## 4 REQUISITOS · Convenção de Montevidéu, 1933\n\nEm mil novecentos e trinta e três, um tratado assinado em Montevidéu listou quatro requisitos: gente morando lá, um território com fronteiras, um governo, e capacidade de conversar com outros países. Repare que não existe carimbo, nem fila de cartório. No papel, o país existe quando cumpre essas quatro coisas.\n\n## 1822 · independência do Brasil\n\nO primeiro caminho é a independência de uma colônia. O Brasil fez isso em mil oitocentos e vinte e dois, cortando o laço com Portugal.\n\n## 2011 · Sudão do Sul\n\nO segundo é a separação. O Sudão do Sul deixou o Sudão em dois mil e onze, depois de um plebiscito. E o terceiro é o divórcio amigável: em mil novecentos e noventa e três, a Tchecoslováquia virou dois países, a República Tcheca e a Eslováquia, sem guerra.\n\n## ONU · exige votação\n\nSó que o mundo real tem um segundo teste: o reconhecimento. Para entrar na ONU, o país precisa da aprovação do Conselho de Segurança e de uma votação na Assembleia.\n\n## 2008 · Kosovo, reconhecido por uns\n\nO Kosovo declarou independência em dois mil e oito. Mais de cem países o reconhecem, segundo o próprio governo kosovar, mas a Sérvia e outros não aceitam. Por isso ele ainda está fora da ONU. O país mais novo da ONU é o Sudão do Sul, o cento e noventa e três, aceito em julho de dois mil e onze, poucos dias depois de declarar independência.\n\n## MAPA VIVO · nunca está pronto\n\nEntão, como nasce um país? Cumprindo os quatro requisitos e, na prática, convencendo o resto do mundo a aceitar. O mapa nunca está terminado.\n\n## Qual país você acha que será o\n\nQual país você acha que será o próximo a nascer? Conta nos comentários. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-01.webp",
+        "tituloCard": "193 · países na ONU",
+        "textoCard": "Quantos países existem? Cento e noventa e três, pelo menos para a ONU. Mas ninguém recebe um diploma de país. Então, como é que um país nasce?"
+      },
+      {
+        "ordem": 2,
+        "cenario": "quatro-requisitos",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-02.webp",
+        "tituloCard": "4 REQUISITOS · Convenção de Montevidéu, 1933",
+        "textoCard": "Em mil novecentos e trinta e três, um tratado assinado em Montevidéu listou quatro requisitos: gente morando lá, um território com fronteiras, um governo, e capacidade de conversar com outros países."
+      },
+      {
+        "ordem": 3,
+        "cenario": "mapa-paises",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-03.webp",
+        "tituloCard": "1822 · independência do Brasil",
+        "textoCard": "O primeiro caminho é a independência de uma colônia. O Brasil fez isso em mil oitocentos e vinte e dois, cortando o laço com Portugal."
+      },
+      {
+        "ordem": 4,
+        "cenario": "mapa-paises",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-04.webp",
+        "tituloCard": "2011 · Sudão do Sul",
+        "textoCard": "O segundo é a separação."
+      },
+      {
+        "ordem": 5,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-05.webp",
+        "tituloCard": "ONU · exige votação",
+        "textoCard": "Só que o mundo real tem um segundo teste: o reconhecimento. Para entrar na ONU, o país precisa da aprovação do Conselho de Segurança e de uma votação na Assembleia."
+      },
+      {
+        "ordem": 6,
+        "cenario": "mapa-paises",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-06.webp",
+        "tituloCard": "2008 · Kosovo, reconhecido por uns",
+        "textoCard": "O Kosovo declarou independência em dois mil e oito."
+      },
+      {
+        "ordem": 7,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-07.webp",
+        "tituloCard": "MAPA VIVO · nunca está pronto",
+        "textoCard": "Então, como nasce um país? Cumprindo os quatro requisitos e, na prática, convencendo o resto do mundo a aceitar. O mapa nunca está terminado."
+      },
+      {
+        "ordem": 8,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/como-nasce-um-pais-08.webp",
+        "tituloCard": "Qual país você acha que será o",
+        "textoCard": "Qual país você acha que será o próximo a nascer? Conta nos comentários. Segue para ficar por dentro do Mundo."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Quantos requisitos a Convenção de Montevidéu (1933) lista para um Estado?",
+        "opcoes": [
+          "Dois",
+          "Quatro",
+          "Sete"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "População permanente, território definido, governo e capacidade de se relacionar com outros países."
+      },
+      {
+        "pergunta": "Como a Tchecoslováquia virou dois países em 1993?",
+        "opcoes": [
+          "Por uma guerra civil",
+          "Por uma separação amigável, sem guerra",
+          "Por decisão da ONU"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "A República Tcheca e a Eslováquia nasceram de um divórcio amigável, sem guerra."
+      },
+      {
+        "pergunta": "Qual é o país mais novo a entrar na ONU, segundo o vídeo?",
+        "opcoes": [
+          "Kosovo",
+          "Sudão do Sul",
+          "Eslováquia"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "O Sudão do Sul foi aceito em julho de 2011, como o 193º membro. O Kosovo ainda está fora da ONU."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ],
+    "publicadoEm": "2026-11-24T17:55:00-03:00"
   }
 ]

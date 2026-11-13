@@ -5,7 +5,7 @@ const D = {
   'cerveja': ['enchente-de-cerveja-de-londres', '2026-11-11'], 'ormuz': ['estreito-de-ormuz-a-torneira-do-petroleo', '2026-11-12'],
   'chagas': ['doenca-de-chagas', '2026-11-12'], 'proclamacao': ['proclamacao-da-republica', '2026-11-15'],
   'hiroo': ['hiroo-onoda', '2026-11-18'], 'bandeira': ['bandeira-do-brasil', '2026-11-19'], 'zumbi': ['zumbi-e-palmares', '2026-11-20'],
-  'guiana': ['brasil-e-guiana-francesa', '2026-11-21'], 'eua': ['eua-x-china', '2026-11-22'], 'lua': ['por-que-a-lua-nao-cai', '2026-11-23'],
+  'guiana': ['brasil-e-guiana-francesa', '2026-11-21'], 'eua': ['eua-x-china', '2026-11-22'], 'lua': ['por-que-a-lua-nao-cai', '2026-11-23'], 'nasce': ['como-nasce-um-pais', '2026-11-24'],
 }
 const map = Object.fromEntries(Object.values(D))
 const a = JSON.parse(fs.readFileSync(p, 'utf8'))

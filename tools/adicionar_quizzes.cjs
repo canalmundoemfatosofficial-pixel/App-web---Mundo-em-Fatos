@@ -32,6 +32,10 @@ const quiz={
 'enchente-de-cerveja-de-londres':[
  Q('Em que ano ocorreu a enchente de cerveja em Londres?',['1814','1914','1714'],0,'Dia 17 de outubro de 1814, na cervejaria Horse Shoe.'),
  Q('Quantas pessoas morreram?',['Três','Oito','Trinta'],1,'Oito pessoas, entre mulheres e crianças.'),
- Q('Qual foi o veredicto do júri dois dias depois?',['Falha da cervejaria','Acidente e infortúnio, sem culpados','Sabotagem'],1,'Nos relatos populares, virou um ato de Deus. As famílias não receberam indenização.')]};
+ Q('Qual foi o veredicto do júri dois dias depois?',['Falha da cervejaria','Acidente e infortúnio, sem culpados','Sabotagem'],1,'Nos relatos populares, virou um ato de Deus. As famílias não receberam indenização.')],
+'como-nasce-um-pais':[
+ Q('Quantos requisitos a Convenção de Montevidéu (1933) lista para um Estado?',['Dois','Quatro','Sete'],1,'População permanente, território definido, governo e capacidade de se relacionar com outros países.'),
+ Q('Como a Tchecoslováquia virou dois países em 1993?',['Por uma guerra civil','Por uma separação amigável, sem guerra','Por decisão da ONU'],1,'A República Tcheca e a Eslováquia nasceram de um divórcio amigável, sem guerra.'),
+ Q('Qual é o país mais novo a entrar na ONU, segundo o vídeo?',['Kosovo','Sudão do Sul','Eslováquia'],1,'O Sudão do Sul foi aceito em julho de 2011, como o 193º membro. O Kosovo ainda está fora da ONU.')]};
 let n=0;for(const a of L){if(quiz[a.id]){a.quiz=quiz[a.id];a.pontosAConfirmar=(a.pontosAConfirmar||[]).filter(x=>!/Quiz/.test(x));n++}}
 fs.writeFileSync(f,JSON.stringify(L,null,2));console.log('quizzes em',n,'artigos; sem quiz:',L.filter(a=>!a.quiz.length).map(a=>a.id))
