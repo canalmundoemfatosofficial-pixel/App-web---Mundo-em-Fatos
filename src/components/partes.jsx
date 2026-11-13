@@ -61,7 +61,7 @@ export function Leitor({ a, dados, setDados, onVoltar }) {
   const fim = (ac, tot) => setDados(d => ({ ...d, resultadosQuizzes: { ...d.resultadosQuizzes, [a.id]: { acertos: ac, totalPerguntas: tot, data: new Date().toISOString().slice(0, 10) } } }))
   const concluir = () => !feito && setDados({ ...dados, aulasConcluidas: [...dados.aulasConcluidas, a.id] })
   const final = <>
-    {yt && <a className="yt" href={a.youtubeUrl} target="_blank" rel="noreferrer"><img src={`https://i.ytimg.com/vi/${yt}/hqdefault.jpg`} alt="" /><span>▶ Assistir vídeo completo no YouTube</span></a>}
+    {yt && <a className="yt" href={a.youtubeUrl} target="_blank" rel="noreferrer"><img src={`https://i.ytimg.com/vi/${yt}/hqdefault.jpg`} alt="" onError={e => { if (!e.target.dataset.fb) { e.target.dataset.fb = 1; e.target.src = a.imagemCapa } }} /><span>▶ Assistir vídeo completo no YouTube</span></a>}
     <Quiz perguntas={a.quiz} onFim={fim} />
     <button className="pri" onClick={concluir}>{feito ? '✅ Aula concluída' : 'Marcar aula como concluída'}</button>
   </>
