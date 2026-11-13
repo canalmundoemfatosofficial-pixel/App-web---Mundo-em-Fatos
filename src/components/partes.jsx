@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { ytId } from '../storage.js'
+import { ytId, liberado, dataBreve } from '../storage.js'
 
 export function Img({ src, titulo, className }) {
   const [ok, setOk] = useState(true)
@@ -8,12 +8,13 @@ export function Img({ src, titulo, className }) {
 }
 
 export function Card({ a, done, onOpen }) {
+  const ok = liberado(a)
   return (
-    <button className="card" onClick={() => onOpen(a.id)}>
+    <button className={'card' + (ok ? '' : ' breve')} onClick={() => ok && onOpen(a.id)} aria-disabled={!ok}>
       <Img className="capa" src={a.imagemCapa} titulo={a.titulo} />
       <span className="badge tl">{a.categoria}</span>
-      <span className="badge tr">{done ? '✅ Estudado' : '✨ Novo'}</span>
-      <div className="info"><b>{a.titulo}</b><small>⏱️ {a.tempoLeituraMinutos} min</small></div>
+      <span className="badge tr">{!ok ? '⏳ Em breve' : done ? '✅ Estudado' : '✨ Novo'}</span>
+      <div className="info"><b>{a.titulo}</b><small>{ok ? `⏱️ ${a.tempoLeituraMinutos} min` : `Chega em ${dataBreve(a)}`}</small></div>
     </button>
   )
 }

@@ -26,3 +26,5 @@ nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;b
 @keyframes giro{to{transform:rotate(360deg)}}@keyframes pulo{50%{transform:translateY(-4px)}}
 
 .foco a{color:var(--amar);text-decoration:none;font-weight:600;text-align:center;padding:12px 0;display:block}
+
+.card.breve{opacity:.7;cursor:default}.card.breve .capa{filter:grayscale(.7) blur(1.5px)}.card.breve .badge.tr{background:var(--amar);color:#1B1030}

@@ -12,11 +12,14 @@ export async function importar(file) {
   if (!o || !Array.isArray(o.aulasConcluidas)) throw new Error('Arquivo inválido')
   return { ...base(), ...o }
 }
+// Artigo só abre na data programada no YouTube (publicadoEm); sem data = sempre liberado
+export const liberado = a => !a.publicadoEm || Date.parse(a.publicadoEm) <= Date.now()
+export const dataBreve = a => new Date(a.publicadoEm).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' })
 // Algoritmo #Para Você: inéditos primeiro, afinidade por categoria, embaralhamento suave
 export function paraVoce(artigos, d) {
   const cont = {}
   artigos.filter(a => d.aulasConcluidas.includes(a.id)).forEach(a => cont[a.categoria] = (cont[a.categoria] || 0) + 1)
-  const score = a => (d.aulasConcluidas.includes(a.id) ? 0 : 10) + Math.min(cont[a.categoria] || 0, 3) + Math.random() * 3
+  const score = a => (liberado(a) ? 0 : -100) + (d.aulasConcluidas.includes(a.id) ? 0 : 10) + Math.min(cont[a.categoria] || 0, 3) + Math.random() * 3
   return [...artigos].sort((x, y) => score(y) - score(x))
 }
 export function ytId(url) { const m = /(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/.exec(url || ''); return m ? m[1] : null }

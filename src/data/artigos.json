@@ -104,7 +104,8 @@
       "Tráfego atual: fontes divergem",
       "Data exata do início da guerra",
       "Navios atingidos 1984–88: 451 (USIP) vs 500+"
-    ]
+    ],
+    "publicadoEm": "2026-11-12T17:55:00-03:00"
   },
   {
     "id": "por-que-a-lua-nao-cai",
@@ -210,7 +211,8 @@
       "Velocidade orbital ~1,02 km/s e queda ~1,4 mm/s",
       "Afastamento de 3,8 cm/ano (refletores Apollo)",
       "Idade da Lua ~4,5 bilhões de anos"
-    ]
+    ],
+    "publicadoEm": "2026-11-23T17:55:00-03:00"
   },
   {
     "id": "doenca-de-chagas",
@@ -312,7 +314,8 @@
         "explicacao": "Trypanosoma cruzi, o nome do parasita que causa a doença de Chagas."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-12T17:55:00-03:00"
   },
   {
     "id": "proclamacao-da-republica",
@@ -414,7 +417,8 @@
         "explicacao": "Dom Pedro II foi levado ao cais e o navio seguiu para a Europa. Ele morreria na França."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-15T17:55:00-03:00"
   },
   {
     "id": "hiroo-onoda",
@@ -516,7 +520,8 @@
         "explicacao": "Ele criou gado em Terenos, Mato Grosso do Sul."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-18T17:55:00-03:00"
   },
   {
     "id": "bandeira-do-brasil",
@@ -618,7 +623,8 @@
         "explicacao": "Segundo as fontes, Spica, a estrela sozinha acima da faixa, representa o Pará."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-19T17:55:00-03:00"
   },
   {
     "id": "zumbi-e-palmares",
@@ -720,7 +726,8 @@
         "explicacao": "A Serra da Barriga, no atual estado de Alagoas."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-20T17:55:00-03:00"
   },
   {
     "id": "brasil-e-guiana-francesa",
@@ -822,7 +829,8 @@
         "explicacao": "O árbitro suíço Walter Hauser deu a sentença em 1900, favorável ao Brasil."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-21T17:55:00-03:00"
   },
   {
     "id": "eua-x-china",
@@ -924,7 +932,8 @@
         "explicacao": "A TSMC, o que torna Taiwan o ponto mais delicado da disputa."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-22T17:55:00-03:00"
   },
   {
     "id": "enchente-de-cerveja-de-londres",
@@ -1026,6 +1035,7 @@
         "explicacao": "Nos relatos populares, virou um ato de Deus. As famílias não receberam indenização."
       }
     ],
-    "pontosAConfirmar": []
+    "pontosAConfirmar": [],
+    "publicadoEm": "2026-11-11T17:55:00-03:00"
   }
 ]
