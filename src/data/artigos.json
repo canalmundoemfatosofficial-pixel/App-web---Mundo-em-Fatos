@@ -1105,7 +1105,7 @@
         "textoCard": "Qual país você acha que será o próximo a nascer? Conta nos comentários. Segue para ficar por dentro do Mundo."
       }
     ],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://youtube.com/shorts/k45GHX2NwAw",
     "quiz": [
       {
         "pergunta": "Quantos requisitos a Convenção de Montevidéu (1933) lista para um Estado?",
@@ -1138,9 +1138,7 @@
         "explicacao": "O Sudão do Sul foi aceito em julho de 2011, como o 193º membro. O Kosovo ainda está fora da ONU."
       }
     ],
-    "pontosAConfirmar": [
-      "youtubeUrl pendente"
-    ],
+    "pontosAConfirmar": [],
     "publicadoEm": "2026-11-24T17:55:00-03:00"
   }
 ]
