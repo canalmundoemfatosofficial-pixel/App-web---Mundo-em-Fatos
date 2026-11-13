@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "estreito-de-ormuz-a-torneira-do-petroleo",
+    "titulo": "Por que um estreito de 33 km mexe no seu combustível?",
+    "area": "Geopolítica",
+    "categoria": "Geopolítica",
+    "tempoLeituraMinutos": 3,
+    "dataPublicacao": "2026-11-10",
+    "imagemCapa": "./assets/capas/estreito-de-ormuz-capa.webp",
+    "textoCompletoBackup": "## A faixa de mar que move o petróleo\n\nEm 10/11/2026 o barril (Brent) custava cerca de US$ 91. Em outubro, passou de US$ 110. Tudo gira em torno do **Estreito de Ormuz**, entre o Irã e a Península Arábica, com cerca de **33 km** no ponto mais estreito. Antes da guerra passavam por ali uns **20 milhões de barris por dia**, quase um quinto do petróleo consumido no planeta.\n\n## Um alvo antigo\n\nEntre 1984 e 1988, Irã e Iraque travaram a **Guerra dos Petroleiros**. Dizem os registros que mais de 400 navios foram atingidos.\n\n## Hoje\n\nDesde fevereiro de 2026, EUA e Irã estão em guerra. Em 22/10 o Brent chegou a US$ 112; depois caiu para cerca de US$ 91.\n\n## No seu bolso\n\nO barril influencia diesel, gasolina, frete e comida. Em março a Petrobras reajustou o diesel em R$ 0,38 por litro.\n\n**Pergunta:** se o barril passar de US$ 100, quem deve absorver a conta?",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-01.webp",
+        "tituloCard": "US$ 91 → US$ 112 → US$ 91",
+        "textoCard": "Hoje o barril custa cerca de US$ 91. Em outubro passou de US$ 110. E tudo gira em torno de uma faixa de mar bem estreita."
+      },
+      {
+        "ordem": 2,
+        "cenario": "estreito-de-ormuz",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-02.webp",
+        "tituloCard": "33 km de largura",
+        "textoCard": "O Estreito de Ormuz fica entre o Irã e a Península Arábica. Os navios usam só duas pistas de mar, de cerca de 3 km cada."
+      },
+      {
+        "ordem": 3,
+        "cenario": "petroleiros-em-fila",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-03.webp",
+        "tituloCard": "~20 milhões de barris por dia",
+        "textoCard": "Antes da guerra, passava por ali quase um quinto de todo o petróleo consumido no planeta."
+      },
+      {
+        "ordem": 4,
+        "cenario": "petroleiros-guerra-1980",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-04.webp",
+        "tituloCard": "1984–1988: a Guerra dos Petroleiros",
+        "textoCard": "Irã e Iraque atacaram navios mercantes. Dizem os registros que mais de 400 foram atingidos, e os EUA passaram a escoltar petroleiros do Kuwait."
+      },
+      {
+        "ordem": 5,
+        "cenario": "linha-do-tempo",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-05.webp",
+        "tituloCard": "38 anos depois, o mesmo mar",
+        "textoCard": "Desde fevereiro de 2026, EUA e Irã estão em guerra. O tráfego despencou, mas as fontes divergem sobre quanto já se recuperou."
+      },
+      {
+        "ordem": 6,
+        "cenario": "painel-de-hoje",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-06.webp",
+        "tituloCard": "US$ 112 no pico (22/10)",
+        "textoCard": "Após ataques a sete petroleiros, o Brent disparou. Com a promessa de fim próximo da guerra, voltou a cerca de US$ 91."
+      },
+      {
+        "ordem": 7,
+        "cenario": "avenida-com-posto",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-07.webp",
+        "tituloCard": "+ R$ 0,38 no diesel",
+        "textoCard": "O barril lá fora mexe no diesel, na gasolina, no frete e na comida. A Petrobras chegou a vender 30% abaixo do preço internacional."
+      },
+      {
+        "ordem": 8,
+        "cenario": "avenida-com-posto",
+        "imagemUrl": "./assets/aulas/estreito-de-ormuz-08.webp",
+        "tituloCard": "Quem paga a conta?",
+        "textoCard": "Se o barril voltar a passar de US$ 100, quem deve absorver: a Petrobras, o governo ou quem abastece o carro?"
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Qual é a largura aproximada do Estreito de Ormuz no ponto mais estreito?",
+        "opcoes": [
+          "3 km",
+          "33 km",
+          "330 km"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Cerca de 33 km (21 milhas), segundo a EIA."
+      },
+      {
+        "pergunta": "Como ficou conhecido o conflito de 1984–1988 em que navios foram atacados no Golfo?",
+        "opcoes": [
+          "Guerra dos Petroleiros",
+          "Guerra do Golfo",
+          "Crise do Suez"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Foi a Guerra dos Petroleiros, durante a guerra entre Irã e Iraque."
+      },
+      {
+        "pergunta": "Por que o preço do barril lá fora afeta o seu bolso?",
+        "opcoes": [
+          "Só muda o petróleo bruto",
+          "Influencia diesel, gasolina, frete e comida",
+          "Não afeta o Brasil"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "O barril influencia combustíveis e, por tabela, frete e alimentos."
+      }
+    ],
+    "pontosAConfirmar": [
+      "Largura: 33 km (EIA) vs 54 km (IEA)",
+      "Tráfego atual: fontes divergem",
+      "Data exata do início da guerra",
+      "Navios atingidos 1984–88: 451 (USIP) vs 500+"
+    ]
+  },
+  {
+    "id": "por-que-a-lua-nao-cai",
+    "titulo": "Por que a Lua NÃO cai na Terra?",
+    "area": "Astronomia",
+    "categoria": "Astronomia",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-22",
+    "imagemCapa": "./assets/capas/por-que-a-lua-nao-cai-capa.webp",
+    "textoCompletoBackup": "## A Lua está caindo, e é isso que a mantém lá\n\nA Lua está a cerca de **384.400 km** da Terra e se move a pouco mais de 1 km por segundo. Em 1687, Isaac Newton imaginou um canhão no alto de uma montanha: com força suficiente, a bala cai, mas a Terra é curva e o chão foge por baixo. Ela dá a volta e nunca encosta.\n\nA Lua é essa bala de canhão. Em um segundo ela anda cerca de 1 km para o lado e cai só uns **1,4 mm** na direção da Terra, exatamente o que a curva da órbita compensa.\n\nNewton conferiu: a gravidade da Terra na distância da Lua é cerca de **3.600 vezes** mais fraca que na superfície, e a conta bate com a queda da Lua.\n\n## Um detalhe a mais\n\nA Lua se afasta da Terra cerca de **3,8 cm por ano**, medido por refletores deixados pelas missões Apollo.\n\n**Pergunta:** qual outra coisa do dia a dia você acha que também está só caindo para os lados?",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-01.webp",
+        "tituloCard": "0 colisões em 4,5 bilhões de anos",
+        "textoCard": "A Lua está caindo na Terra agora mesmo. E vai continuar caindo para sempre, sem nunca chegar."
+      },
+      {
+        "ordem": 2,
+        "cenario": "espaco-terra-lua",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-02.webp",
+        "tituloCard": "384.400 km de distância",
+        "textoCard": "Parece parada lá em cima, mas está correndo a mais de mil metros por segundo."
+      },
+      {
+        "ordem": 3,
+        "cenario": "montanha-de-newton",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-03.webp",
+        "tituloCard": "1687: o canhão de Newton",
+        "textoCard": "Newton imaginou um canhão no alto de uma montanha. Quanto mais forte o tiro, mais longe a bala cai."
+      },
+      {
+        "ordem": 4,
+        "cenario": "espaco-terra-lua",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-04.webp",
+        "tituloCard": "A Lua é a bala de canhão",
+        "textoCard": "Ninguém precisou atirar: ela já nasceu em movimento e a Terra é curva, então o chão foge por baixo."
+      },
+      {
+        "ordem": 5,
+        "cenario": "espaco-terra-lua",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-05.webp",
+        "tituloCard": "1,4 mm por segundo",
+        "textoCard": "Em um segundo a Lua anda cerca de 1 km para o lado e cai só um milímetro e meio na direção da Terra."
+      },
+      {
+        "ordem": 6,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-06.webp",
+        "tituloCard": "1/3.600 da gravidade",
+        "textoCard": "Newton calculou que a gravidade na distância da Lua é umas 3.600 vezes mais fraca que aqui. E isso bateu com a queda da Lua."
+      },
+      {
+        "ordem": 7,
+        "cenario": "espaco-terra-lua",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-07.webp",
+        "tituloCard": "3,8 cm por ano",
+        "textoCard": "A Lua se afasta da Terra cerca de 3,8 cm por ano, medido por espelhos deixados por astronautas."
+      },
+      {
+        "ordem": 8,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/por-que-a-lua-nao-cai-08.webp",
+        "tituloCard": "Cai ou não cai?",
+        "textoCard": "Cai o tempo todo, e é por isso que continua lá. Se ela parasse, aí sim cairia de vez."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Por que a Lua não cai na Terra?",
+        "opcoes": [
+          "Porque não há gravidade lá",
+          "Porque cai o tempo todo, mas se move para o lado e a curva da órbita compensa",
+          "Porque a Terra a empurra"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "A Lua cai continuamente em direção à Terra, mas a velocidade lateral faz a trajetória curvar e nunca encostar."
+      },
+      {
+        "pergunta": "Quanto a Lua se afasta da Terra por ano?",
+        "opcoes": [
+          "3,8 cm",
+          "38 cm",
+          "3,8 m"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Cerca de 3,8 cm por ano, medido por refletores deixados pelas missões Apollo."
+      },
+      {
+        "pergunta": "Quem imaginou o canhão no alto da montanha?",
+        "opcoes": [
+          "Galileu",
+          "Isaac Newton",
+          "Kepler"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Foi Isaac Newton, em 1687, nos Principia."
+      }
+    ],
+    "pontosAConfirmar": [
+      "Velocidade orbital ~1,02 km/s e queda ~1,4 mm/s",
+      "Afastamento de 3,8 cm/ano (refletores Apollo)",
+      "Idade da Lua ~4,5 bilhões de anos"
+    ]
+  },
+  {
+    "id": "doenca-de-chagas",
+    "titulo": "Doença de Chagas: o médico que olhou de perto",
+    "area": "Ciência",
+    "categoria": "Ciência",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-12",
+    "imagemCapa": "./assets/capas/doenca-de-chagas-capa.webp",
+    "textoCompletoBackup": "## 1907 · Lassance, Minas Gerais\n\nMinas Gerais, mil novecentos e sete. Um jovem médico chega a Lassance, um vilarejo ao lado dos trilhos da ferrovia. O nome dele é Carlos Chagas, e ele veio combater a malária que parou as obras da estrada de ferro.\n\n## Ele se instala ali com um colega\n\nEle se instala ali com um colega, o médico Belisário Penna, e os dois começam a visitar as casas dos trabalhadores. Nas casas de pau a pique, de noite, um inseto sai das frestas da parede e pica o rosto de quem dorme. O povo chama de barbeiro. Carlos repara nele. Ninguém achava que aquele bichinho fosse importante.\n\n## Ele abre o inseto e encontra\n\nEle abre o inseto e encontra, dentro do intestino, um parasita que ninguém conhecia. Ele envia o material para o Rio de Janeiro, e os animais infectados adoecem. O parasita faz mal.\n\n## Só que falta a prova que importa\n\nSó que falta a prova que importa: achar esse parasita em uma pessoa. Sem isso, a descoberta é só uma ideia. Os dias passam. Casa após casa, nada. E aqui vem a pergunta: o que você faria? Voltaria com meia descoberta, ou continuaria procurando?\n\n## 1909 · descoberta da doença\n\nCarlos continuou. E examinou Berenice, uma menina de dois anos, com febre. No sangue dela, ele viu os mesmos parasitas se mexendo. Em abril de mil novecentos e nove, ele apresentou o achado. Sozinho, descreveu o parasita, o inseto que transmite e a doença.\n\n## 1 morte · 6 casos ativos em Óbidos\n\nO parasita ganhou o nome do seu mestre, Oswaldo Cruz: Trypanosoma cruzi. Mais de cem anos depois, a história continua. Em Óbidos, no Pará, um surto matou uma pessoa e deixou outras seis em tratamento.\n\n## 443 · casos confirmados no Pará em 2026\n\nEm dois mil e seis, o Brasil recebeu um certificado internacional por interromper a transmissão pelo barbeiro. Mas a doença também pode chegar por alimentos contaminados, e o Pará já confirmou quatrocentos e quarenta e três casos neste ano. O Ministério da Saúde estima de um vírgula nove a quatro vírgula seis milhões de brasileiros infectados, e muitos nem sabem.\n\n## O barbeiro virou símbolo de uma lição\n\nO barbeiro virou símbolo de uma lição: descobrir é só o começo. O que importa é a informação chegar a quem precisa. Descobrir, no fundo, é olhar de perto onde ninguém estava olhando. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "trilhos-lassance",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-01.webp",
+        "tituloCard": "1907 · Lassance, Minas Gerais",
+        "textoCard": "Minas Gerais, mil novecentos e sete. Um jovem médico chega a Lassance, um vilarejo ao lado dos trilhos da ferrovia. O nome dele é Carlos Chagas, e ele veio combater a malária que parou as obras da estrada de ferro."
+      },
+      {
+        "ordem": 2,
+        "cenario": "trilhos-lassance",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-02.webp",
+        "tituloCard": "Ele se instala ali com um colega",
+        "textoCard": "Ele se instala ali com um colega, o médico Belisário Penna, e os dois começam a visitar as casas dos trabalhadores."
+      },
+      {
+        "ordem": 3,
+        "cenario": "laboratorio-chagas",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-03.webp",
+        "tituloCard": "Ele abre o inseto e encontra",
+        "textoCard": "Ele abre o inseto e encontra, dentro do intestino, um parasita que ninguém conhecia. Ele envia o material para o Rio de Janeiro, e os animais infectados adoecem. O parasita faz mal."
+      },
+      {
+        "ordem": 4,
+        "cenario": "laboratorio-chagas",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-04.webp",
+        "tituloCard": "Só que falta a prova que importa",
+        "textoCard": "Só que falta a prova que importa: achar esse parasita em uma pessoa."
+      },
+      {
+        "ordem": 5,
+        "cenario": "casa-lassance",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-05.webp",
+        "tituloCard": "1909 · descoberta da doença",
+        "textoCard": "Carlos continuou."
+      },
+      {
+        "ordem": 6,
+        "cenario": "laboratorio-chagas",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-06.webp",
+        "tituloCard": "1 morte · 6 casos ativos em Óbidos",
+        "textoCard": "O parasita ganhou o nome do seu mestre, Oswaldo Cruz: Trypanosoma cruzi. Mais de cem anos depois, a história continua. Em Óbidos, no Pará, um surto matou uma pessoa e deixou outras seis em tratamento."
+      },
+      {
+        "ordem": 7,
+        "cenario": "obidos",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-07.webp",
+        "tituloCard": "443 · casos confirmados no Pará em 2026",
+        "textoCard": "Em dois mil e seis, o Brasil recebeu um certificado internacional por interromper a transmissão pelo barbeiro."
+      },
+      {
+        "ordem": 8,
+        "cenario": "casa-lassance",
+        "imagemUrl": "./assets/aulas/doenca-de-chagas-08.webp",
+        "tituloCard": "O barbeiro virou símbolo de uma lição",
+        "textoCard": "O barbeiro virou símbolo de uma lição: descobrir é só o começo. O que importa é a informação chegar a quem precisa. Descobrir, no fundo, é olhar de perto onde ninguém estava olhando. Segue para ficar por dentro do Mundo."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Qual inseto transmite a doença descoberta por Carlos Chagas?",
+        "opcoes": [
+          "Mosquito-prego",
+          "Barbeiro",
+          "Pulga"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "O barbeiro sai das frestas das paredes à noite e pica o rosto de quem dorme."
+      },
+      {
+        "pergunta": "Em quem Carlos Chagas encontrou o parasita no sangue, completando a prova?",
+        "opcoes": [
+          "Em Berenice, uma menina de 2 anos",
+          "Em Belisário Penna",
+          "Em um trabalhador da ferrovia adulto"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "No sangue da menina Berenice, com febre, ele viu os mesmos parasitas se mexendo."
+      },
+      {
+        "pergunta": "Que nome o parasita recebeu, em homenagem a Oswaldo Cruz?",
+        "opcoes": [
+          "Plasmodium cruzi",
+          "Trypanosoma cruzi",
+          "Leishmania cruzi"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Trypanosoma cruzi, o nome do parasita que causa a doença de Chagas."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "proclamacao-da-republica",
+    "titulo": "Proclamação da República: a república que ninguém pediu",
+    "area": "História",
+    "categoria": "História",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-15",
+    "imagemCapa": "./assets/capas/proclamacao-da-republica-capa.webp",
+    "textoCompletoBackup": "## 13 mai 1888 · Lei Áurea\n\nQuinze de novembro de mil oitocentos e oitenta e nove. O Brasil acorda numa monarquia e vai dormir numa república. E o mais curioso: boa parte do povo assistiu a tudo sem entender o que estava acontecendo. Para entender, volte um ano. Em mil oitocentos e oitenta e oito, a princesa Isabel assina a Lei Áurea e acaba com a escravidão.\n\n## Muitos fazendeiros, que dependiam desse trabalho\n\nMuitos fazendeiros, que dependiam desse trabalho, se sentem abandonados pelo Império e passam a apoiar a ideia de república. Ao mesmo tempo, o Exército, que havia vencido a Guerra do Paraguai, se sentia desprestigiado pelo governo. E o imperador, dom Pedro Segundo, já estava velho e doente. E poucos queriam o reinado de Isabel, a herdeira.\n\n## 14 nov 1889 · o boato\n\nOs republicanos, como Quintino Bocaiuva e Rui Barbosa, faziam campanha. Faltava um militar de prestígio. Esse homem era o marechal Deodoro da Fonseca. Só que Deodoro era amigo pessoal do imperador e dizia respeitar dom Pedro. Na noite de catorze de novembro, correu um boato: o governo do visconde de Ouro Preto prenderia Deodoro e o professor Benjamin Constant.\n\n## 15 nov 1889 · manhã no Campo de Santana\n\nDizem os registros que era falso. Mas foi o estopim. De manhã cedo, Deodoro, doente e mal conseguindo respirar, deixa a cama e vai ao Campo de Santana, no Rio de Janeiro. À frente das tropas, ele marcha até o quartel onde estava o governo e declara deposto o ministério de Ouro Preto.\n\n## Repare: o alvo de Deodoro era o gabinete\n\nRepare: o alvo de Deodoro era o gabinete, o governo. O imperador, em teoria, continuava no trono. Os registros contam que ele chegou a dar vivas ao imperador. E que ninguém na rua entendeu direito o que era aquilo. Dom Pedro, em Petrópolis, volta ao Rio ao saber da confusão. Tenta montar outro governo, com um rival de Deodoro à frente.\n\n## 15 nov 1889 · proclamação na Câmara\n\nPara Deodoro, rival de longa data de quem seria escolhido, foi a gota d'água. Os republicanos insistem, e dizem os registros que ele cede: o Brasil será uma república. Ao fim da tarde, o vereador José do Patrocínio, na Câmara Municipal do Rio, já tinha proclamado a república diante do povo ali reunido. No dia seguinte, o novo governo provisório publica um decreto, com Deodoro como chefe.\n\n## 17 nov 1889 · a família imperial parte\n\nFoi um golpe quase sem sangue. Um jornalista da época disse que o povo assistiu a tudo bestializado. A família imperial recebe a ordem de partir. Na madrugada de dezessete de novembro, dom Pedro Segundo é levado ao cais, e o navio segue para a Europa. Ele morreria na França, dois anos depois, com saudade do Brasil.\n\n## Deodoro tornou-se o primeiro presidente\n\nDeodoro tornou-se o primeiro presidente. Mas a república nasceu de um golpe militar. A Proclamação mostra como a história muitas vezes muda no susto, e só depois ganha sentido. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio (estudio do PROF)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-01.webp",
+        "tituloCard": "13 mai 1888 · Lei Áurea",
+        "textoCard": "Quinze de novembro de mil oitocentos e oitenta e nove."
+      },
+      {
+        "ordem": 2,
+        "cenario": "rio-de-1889 (rua do Rio de 1889)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-02.webp",
+        "tituloCard": "Muitos fazendeiros, que dependiam desse trabalho",
+        "textoCard": "Muitos fazendeiros, que dependiam desse trabalho, se sentem abandonados pelo Império e passam a apoiar a ideia de república."
+      },
+      {
+        "ordem": 3,
+        "cenario": "rio-de-1889 (rua do Rio de 1889)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-03.webp",
+        "tituloCard": "14 nov 1889 · o boato",
+        "textoCard": "Os republicanos, como Quintino Bocaiuva e Rui Barbosa, faziam campanha."
+      },
+      {
+        "ordem": 4,
+        "cenario": "sala-de-deodoro (sala da casa de Deodoro)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-04.webp",
+        "tituloCard": "15 nov 1889 · manhã no Campo de Santana",
+        "textoCard": "Dizem os registros que era falso."
+      },
+      {
+        "ordem": 5,
+        "cenario": "campo-de-santana-manha (NOVO: Campo de Santana de manhã, tropas em formação, quartel ao fundo)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-05.webp",
+        "tituloCard": "Repare: o alvo de Deodoro era o gabinete",
+        "textoCard": "Repare: o alvo de Deodoro era o gabinete, o governo."
+      },
+      {
+        "ordem": 6,
+        "cenario": "sala-de-deodoro (sala da casa de Deodoro)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-06.webp",
+        "tituloCard": "15 nov 1889 · proclamação na Câmara",
+        "textoCard": "Para Deodoro, rival de longa data de quem seria escolhido, foi a gota d'água."
+      },
+      {
+        "ordem": 7,
+        "cenario": "rio-de-1889 (rua do Rio de 1889)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-07.webp",
+        "tituloCard": "17 nov 1889 · a família imperial parte",
+        "textoCard": "Foi um golpe quase sem sangue."
+      },
+      {
+        "ordem": 8,
+        "cenario": "sala-de-deodoro (sala da casa de Deodoro)",
+        "imagemUrl": "./assets/aulas/proclamacao-da-republica-08.webp",
+        "tituloCard": "Deodoro tornou-se o primeiro presidente",
+        "textoCard": "Deodoro tornou-se o primeiro presidente. Mas a república nasceu de um golpe militar. A Proclamação mostra como a história muitas vezes muda no susto, e só depois ganha sentido. Segue para ficar por dentro do Mundo."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Qual foi o alvo imediato da ação de Deodoro em 15 de novembro de 1889?",
+        "opcoes": [
+          "O imperador dom Pedro II",
+          "O gabinete do visconde de Ouro Preto",
+          "A princesa Isabel"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Ele depôs o ministério de Ouro Preto; o imperador, em teoria, continuava no trono."
+      },
+      {
+        "pergunta": "Quem era o marechal que liderou o movimento?",
+        "opcoes": [
+          "Floriano Peixoto",
+          "Deodoro da Fonseca",
+          "Benjamin Constant"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "O marechal Deodoro da Fonseca, que se tornou o primeiro presidente."
+      },
+      {
+        "pergunta": "Para onde seguiu a família imperial na madrugada de 17 de novembro?",
+        "opcoes": [
+          "Para a Europa, de navio",
+          "Para Petrópolis",
+          "Para Portugal por terra"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Dom Pedro II foi levado ao cais e o navio seguiu para a Europa. Ele morreria na França."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "hiroo-onoda",
+    "titulo": "Hiroo Onoda: o soldado que não sabia que a guerra acabou",
+    "area": "História",
+    "categoria": "História",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-18",
+    "imagemCapa": "./assets/capas/hiroo-onoda-capa.webp",
+    "textoCompletoBackup": "## fev 1974 · a busca na selva\n\nFevereiro de mil novecentos e setenta e quatro. Um jovem aventureiro acampa na selva das Filipinas, atrás de um homem que ninguém via havia décadas. Quando o encontra, descobre que o soldado ainda se considera em serviço. A guerra tinha acabado vinte e nove anos antes. Hiroo Onoda era tenente do exército imperial japonês, treinado em guerrilha e espionagem. Uma escola que ensinava a nunca baixar a guarda.\n\n## dez 1944 · ilha de Lubang\n\nEm dezembro de mil novecentos e quarenta e quatro, foi enviado à ilha de Lubang, nas Filipinas. Seu comandante, o major Taniguchi, deu uma ordem que ele guardou pela vida inteira: não se renda e não morra por conta própria. Em mil novecentos e quarenta e cinco, o Japão se rende. A notícia correu o mundo.\n\n## Na selva, ela chegou\n\nNa selva, ela chegou, mas ninguém acreditou. Onoda e três companheiros seguiram escondidos. Aviões jogaram panfletos. Jornais e cartas foram deixados na mata. Para eles, tudo era propaganda do inimigo. Parentes falaram por alto-falantes. Onoda ouviu a voz do irmão e concluiu que era um truque.\n\n## 1 · o treino\n\nEntão, por que ele resistiu? Primeiro, o treino. Num soldado de espionagem, desconfiar é regra. Segundo, a ordem. Ninguém com autoridade, no entender dele, tinha mandado parar. Terceiro, a honra. Largar a luta seria dizer que os companheiros caídos morreram à toa. E cada confronto com moradores da ilha parecia provar que a guerra seguia.\n\n## 1949 e 1954 · os companheiros\n\nAkatsu deixa o grupo em quarenta e nove e se entrega no ano seguinte. Shimada morre em cinquenta e quatro, num choque com tropas filipinas. Kozuka morre em setenta e dois. Agora Onoda está sozinho, com o rifle e o pouco que a mata dava. Norio Suzuki, um jovem japonês, tinha uma meta curiosa: encontrar o tenente Onoda, um panda e o abominável homem das neves.\n\n## mar 1974 · fim da missão\n\nAchou o primeiro. Onoda explicou que só deporia as armas se um superior ordenasse. Suzuki voltou ao Japão e contou tudo. O governo localizou o major Taniguchi, que agora trabalhava como livreiro. Em março de mil novecentos e setenta e quatro, Taniguchi voou até Lubang e leu a ordem oficial: fim da missão.\n\n## 1974 · a espada ao presidente Marcos\n\nPela primeira vez, a ordem vinha de quem ele reconhecia como superior. Ele chorou. No dia seguinte, entregou a espada ao presidente Marcos, que o perdoou. Voltou ao Japão como herói, mas encontrou um país muito diferente do que deixara.\n\n## 1975 · Terenos, MS\n\nEm mil novecentos e setenta e cinco, mudou-se para o Brasil e criou gado em Terenos, Mato Grosso do Sul. Depois, voltou ao Japão e criou uma escola para ensinar jovens a viver na natureza. Morreu em dois mil e quatorze, aos noventa e um anos. A história de Onoda mostra o poder de uma convicção, e o preço de viver sem a verdade. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "selva-lubang",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-01.webp",
+        "tituloCard": "fev 1974 · a busca na selva",
+        "textoCard": "Fevereiro de mil novecentos e setenta e quatro."
+      },
+      {
+        "ordem": 2,
+        "cenario": "praia-filipinas",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-02.webp",
+        "tituloCard": "dez 1944 · ilha de Lubang",
+        "textoCard": "Em dezembro de mil novecentos e quarenta e quatro, foi enviado à ilha de Lubang, nas Filipinas."
+      },
+      {
+        "ordem": 3,
+        "cenario": "selva-lubang",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-03.webp",
+        "tituloCard": "Na selva, ela chegou",
+        "textoCard": "Na selva, ela chegou, mas ninguém acreditou."
+      },
+      {
+        "ordem": 4,
+        "cenario": "selva-lubang",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-04.webp",
+        "tituloCard": "1 · o treino",
+        "textoCard": "Então, por que ele resistiu?"
+      },
+      {
+        "ordem": 5,
+        "cenario": "selva-lubang",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-05.webp",
+        "tituloCard": "1949 e 1954 · os companheiros",
+        "textoCard": "Akatsu deixa o grupo em quarenta e nove e se entrega no ano seguinte."
+      },
+      {
+        "ordem": 6,
+        "cenario": "praia-filipinas",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-06.webp",
+        "tituloCard": "mar 1974 · fim da missão",
+        "textoCard": "Achou o primeiro."
+      },
+      {
+        "ordem": 7,
+        "cenario": "selva-lubang",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-07.webp",
+        "tituloCard": "1974 · a espada ao presidente Marcos",
+        "textoCard": "Pela primeira vez, a ordem vinha de quem ele reconhecia como superior."
+      },
+      {
+        "ordem": 8,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/hiroo-onoda-08.webp",
+        "tituloCard": "1975 · Terenos, MS",
+        "textoCard": "Em mil novecentos e setenta e cinco, mudou-se para o Brasil e criou gado em Terenos, Mato Grosso do Sul."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Por quantos anos, aproximadamente, Onoda seguiu em guerra depois do fim do conflito?",
+        "opcoes": [
+          "9 anos",
+          "29 anos",
+          "49 anos"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "A guerra tinha acabado 29 anos antes de ele ser encontrado, em 1974."
+      },
+      {
+        "pergunta": "O que finalmente o fez deixar as armas?",
+        "opcoes": [
+          "Um panfleto jogado de avião",
+          "A voz do irmão no alto-falante",
+          "A ordem do seu antigo comandante, o major Taniguchi"
+        ],
+        "indiceCorreto": 2,
+        "explicacao": "Onoda só aceitaria a ordem de um superior; Taniguchi voou até Lubang e leu a ordem oficial."
+      },
+      {
+        "pergunta": "Para que país Onoda se mudou em 1975?",
+        "opcoes": [
+          "Brasil",
+          "Estados Unidos",
+          "Filipinas"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Ele criou gado em Terenos, Mato Grosso do Sul."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "bandeira-do-brasil",
+    "titulo": "A bandeira que durou quatro dias",
+    "area": "História",
+    "categoria": "História",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-19",
+    "imagemCapa": "./assets/capas/bandeira-do-brasil-capa.webp",
+    "textoCompletoBackup": "## 15 nov 1889 · a Proclamação\n\nQuatro dias. É o tempo que durou a primeira bandeira da República do Brasil. Quinze de novembro de mil oitocentos e oitenta e nove. O Brasil foi dormir monarquia e acordou república. E aí alguém lembrou: cadê a bandeira? País novo precisa de símbolo novo, e rápido. Não dava tempo nem de fazer votação.\n\n## A solução saiu em questão de horas\n\nA solução saiu em questão de horas: uma bandeira de listras verdes e amarelas, com um canto azul cheio de estrelas. Se você achou parecida com a dos Estados Unidos, não foi só você. Era praticamente uma cópia, só que com as cores do Brasil. Dizem os registros que a fofoca correu rápido: o país novo tinha colado da prova do vizinho do norte.\n\n## 15 a 19 nov 1889 · a bandeira provisória\n\nDizem também que o marechal Deodoro vetou o desenho, justamente por parecer demais com o de outro país. De quinze a dezenove de novembro, ela existiu. Depois, foi para a gaveta da história. Quem entrou em campo? Os positivistas, seguidores de uma filosofia que valorizava a ordem e a ciência.\n\n## A ideia veio de Raimundo Teixeira Mendes\n\nA ideia veio de Raimundo Teixeira Mendes, com a colaboração de Miguel Lemos. O astrônomo Manuel Pereira Reis cuidou das estrelas. O pintor Décio Villares deu forma ao desenho. E Benjamin Constant, militar e positivista, ajudou a defender a ideia de um céu na bandeira. O que ficou do Império? O verde e o losango amarelo. O brasão saiu. No lugar, entrou um globo azul.\n\n## 19 nov 1889 · Decreto nº 4\n\nAquelas estrelas não são enfeite. Dizem os registros que reproduzem o céu do Rio de Janeiro no dia da Proclamação, embora o horário mude conforme a fonte. Em dezenove de novembro, o Decreto número quatro tornou a nova bandeira oficial. Quatro dias de bandeira provisória, decreto número quatro. A história às vezes tem senso de humor.\n\n## Só que a polêmica não acabou ali\n\nSó que a polêmica não acabou ali. Logo vieram as críticas, principalmente à frase escrita na faixa. Teixeira Mendes respondeu pelo Diário Oficial. A primeira briga da bandeira nova foi resolvida por escrito, em jornal. O lema é associado ao positivismo de Auguste Comte: o amor por princípio, a ordem por base e o progresso por fim.\n\n## 27 estrelas · uma por estado e o DF\n\nNa bandeira, sobraram só duas palavras: Ordem e Progresso. Hoje, a bandeira tem vinte e sete estrelas, uma para cada estado e o Distrito Federal. Em mil novecentos e noventa e dois, uma lei acrescentou seis. Agora vale uma aposta. Aquela estrela sozinha, acima da faixa: qual estado ela representa? Muita gente aposta em Brasília.\n\n## Spica · a estrela do Pará\n\nSe apostou em Brasília, errou. Segundo as fontes, é Spica, e ela representa o Pará. Confessa nos comentários: você está em boa companhia. E repare: a bandeira provisória durou quatro dias. Aqui no canal, a Proclamação foi ao ar dia quinze. Hoje é dezenove. Também fechamos quatro dias. A diferença é que ninguém vetou a gente. Por enquanto. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "rio-de-1889",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-01.webp",
+        "tituloCard": "15 nov 1889 · a Proclamação",
+        "textoCard": "Quatro dias."
+      },
+      {
+        "ordem": 2,
+        "cenario": "sala-de-deodoro",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-02.webp",
+        "tituloCard": "A solução saiu em questão de horas",
+        "textoCard": "A solução saiu em questão de horas: uma bandeira de listras verdes e amarelas, com um canto azul cheio de estrelas."
+      },
+      {
+        "ordem": 3,
+        "cenario": "sala-de-deodoro",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-03.webp",
+        "tituloCard": "15 a 19 nov 1889 · a bandeira provisória",
+        "textoCard": "Dizem também que o marechal Deodoro vetou o desenho, justamente por parecer demais com o de outro país."
+      },
+      {
+        "ordem": 4,
+        "cenario": "camara-municipal",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-04.webp",
+        "tituloCard": "A ideia veio de Raimundo Teixeira Mendes",
+        "textoCard": "A ideia veio de Raimundo Teixeira Mendes, com a colaboração de Miguel Lemos."
+      },
+      {
+        "ordem": 5,
+        "cenario": "ceu-do-rio-1889",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-05.webp",
+        "tituloCard": "19 nov 1889 · Decreto nº 4",
+        "textoCard": "Aquelas estrelas não são enfeite."
+      },
+      {
+        "ordem": 6,
+        "cenario": "camara-municipal",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-06.webp",
+        "tituloCard": "Só que a polêmica não acabou ali",
+        "textoCard": "Só que a polêmica não acabou ali."
+      },
+      {
+        "ordem": 7,
+        "cenario": "sala-de-deodoro",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-07.webp",
+        "tituloCard": "27 estrelas · uma por estado e o DF",
+        "textoCard": "Na bandeira, sobraram só duas palavras: Ordem e Progresso."
+      },
+      {
+        "ordem": 8,
+        "cenario": "ceu-do-rio-1889",
+        "imagemUrl": "./assets/aulas/bandeira-do-brasil-08.webp",
+        "tituloCard": "Spica · a estrela do Pará",
+        "textoCard": "Se apostou em Brasília, errou."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Quanto tempo durou a primeira bandeira da República?",
+        "opcoes": [
+          "Quatro dias",
+          "Quatro meses",
+          "Quatro anos"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "De 15 a 19 de novembro de 1889, quando o Decreto nº 4 oficializou a nova bandeira."
+      },
+      {
+        "pergunta": "A bandeira provisória lembrava a de qual país?",
+        "opcoes": [
+          "França",
+          "Estados Unidos",
+          "Argentina"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Eram listras verdes e amarelas com um canto azul cheio de estrelas."
+      },
+      {
+        "pergunta": "Que estado a estrela Spica representa?",
+        "opcoes": [
+          "Distrito Federal",
+          "Pará",
+          "Rio de Janeiro"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Segundo as fontes, Spica, a estrela sozinha acima da faixa, representa o Pará."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "zumbi-e-palmares",
+    "titulo": "Zumbi e Palmares: o quilombo que resistiu",
+    "area": "História",
+    "categoria": "História",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-20",
+    "imagemCapa": "./assets/capas/zumbi-e-palmares-capa.webp",
+    "textoCompletoBackup": "## nov 1695 · Recife\n\nNovembro de mil seiscentos e noventa e cinco. Numa praça do Recife, expõem uma cabeça. Segundo os relatos, para provar ao povo que o dono dela não era imortal. O homem se chamava Zumbi. E precisavam provar isso porque, para muita gente, ele parecia impossível de derrubar. Para entender, volte ao lugar onde tudo aconteceu: a Serra da Barriga, no atual estado de Alagoas.\n\n## Ali nasceu Palmares\n\nAli nasceu Palmares, o maior quilombo do Brasil colonial. Um território de gente que fugiu da escravidão e decidiu viver livre. Não era um esconderijo qualquer. Era uma sociedade organizada, com aldeias e liderança própria, que resistiu por décadas. O primeiro grande líder foi Ganga Zumba. Seu sobrinho era Zumbi, que, segundo os relatos, nasceu livre em Palmares, por volta de mil seiscentos e cinquenta e cinco.\n\n## 1678 · proposta de paz\n\nZumbi cresceu num lugar sob ameaça constante. As tropas coloniais queriam destruir Palmares, e Palmares queria continuar existindo. Em mil seiscentos e setenta e oito, o governador de Pernambuco ofereceu a Ganga Zumba um acordo de paz. Pelas versões, era terra e liberdade em troca de depor as armas. Mas a liberdade só valeria para quem tivesse nascido no quilombo.\n\n## Palmares se dividiu\n\nPalmares se dividiu. Ganga Zumba aceitou o acordo. Zumbi recusou e passou a disputar a liderança. O que aconteceu com Ganga Zumba? Os relatos divergem. Há quem diga que foi envenenado, e há quem diga que ninguém sabe ao certo. Zumbi assumiu o comando. E Palmares continuou resistindo. Até que o bandeirante Domingos Jorge Velho liderou o ataque final contra o quilombo.\n\n## jan 1694 · cerco ao Macaco\n\nEm janeiro de mil seiscentos e noventa e quatro, começou o cerco ao Macaco, a principal povoação de Palmares. Dessa vez, vieram canhões. Em fevereiro, Palmares caiu, e Zumbi saiu ferido. Mas ele sobreviveu. Por quase dois anos, segundo os relatos, continuou escondido e resistindo.\n\n## 20 nov 1695 · Zumbi é encontrado\n\nAgora pense: você é Zumbi, ferido e perseguido, com o seu mundo destruído. Você se rende ou continua? Em vinte de novembro de mil seiscentos e noventa e cinco, ele foi encontrado. Segundo os relatos, Antônio Soares, que fazia parte do grupo, revelou o esconderijo. Uns dizem que sob tortura, outros que em troca da própria liberdade.\n\n## 20 de novembro · Dia da Consciência Negra\n\nZumbi foi morto. Quem comandou a tropa? Aqui os relatos divergem: alguns citam Domingos Jorge Velho, outros André Furtado de Mendonça. A cabeça foi levada ao Recife e exposta em público, para desmentir os rumores de que ele era imortal. Mas a história que tentaram encerrar ficou. Mais de trezentos anos depois, vinte de novembro é o Dia da Consciência Negra.\n\n## Zumbi virou símbolo de resistência\n\nZumbi virou símbolo de resistência. Palmares mostrou que gente escravizada criou a sua própria história, e a defendeu. Ontem, a gente falou de uma bandeira que durou quatro dias. Hoje, de um quilombo que resistiu por décadas. E você: o que sobre Palmares você não sabia? Conta nos comentários. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "recife-1695",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-01.webp",
+        "tituloCard": "nov 1695 · Recife",
+        "textoCard": "Novembro de mil seiscentos e noventa e cinco."
+      },
+      {
+        "ordem": 2,
+        "cenario": "quilombo-dos-palmares",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-02.webp",
+        "tituloCard": "Ali nasceu Palmares",
+        "textoCard": "Ali nasceu Palmares, o maior quilombo do Brasil colonial."
+      },
+      {
+        "ordem": 3,
+        "cenario": "serra-da-barriga",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-03.webp",
+        "tituloCard": "1678 · proposta de paz",
+        "textoCard": "Zumbi cresceu num lugar sob ameaça constante."
+      },
+      {
+        "ordem": 4,
+        "cenario": "quilombo-dos-palmares",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-04.webp",
+        "tituloCard": "Palmares se dividiu",
+        "textoCard": "Palmares se dividiu."
+      },
+      {
+        "ordem": 5,
+        "cenario": "serra-da-barriga",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-05.webp",
+        "tituloCard": "jan 1694 · cerco ao Macaco",
+        "textoCard": "Em janeiro de mil seiscentos e noventa e quatro, começou o cerco ao Macaco, a principal povoação de Palmares."
+      },
+      {
+        "ordem": 6,
+        "cenario": "serra-da-barriga",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-06.webp",
+        "tituloCard": "20 nov 1695 · Zumbi é encontrado",
+        "textoCard": "Agora pense: você é Zumbi, ferido e perseguido, com o seu mundo destruído."
+      },
+      {
+        "ordem": 7,
+        "cenario": "serra-da-barriga",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-07.webp",
+        "tituloCard": "20 de novembro · Dia da Consciência Negra",
+        "textoCard": "Zumbi foi morto."
+      },
+      {
+        "ordem": 8,
+        "cenario": "quilombo-dos-palmares",
+        "imagemUrl": "./assets/aulas/zumbi-e-palmares-08.webp",
+        "tituloCard": "Zumbi virou símbolo de resistência",
+        "textoCard": "Zumbi virou símbolo de resistência."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Em que data morreu Zumbi, segundo os relatos?",
+        "opcoes": [
+          "20 de novembro de 1695",
+          "15 de novembro de 1889",
+          "13 de maio de 1888"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Por isso 20 de novembro é o Dia da Consciência Negra."
+      },
+      {
+        "pergunta": "Qual foi a proposta do acordo de paz de 1678?",
+        "opcoes": [
+          "Terra e liberdade, mas só para quem nasceu no quilombo",
+          "Liberdade para todos os quilombolas",
+          "Dinheiro em troca da rendição"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Ganga Zumba aceitou, Zumbi recusou e Palmares se dividiu."
+      },
+      {
+        "pergunta": "Onde ficava o quilombo dos Palmares?",
+        "opcoes": [
+          "Serra da Barriga, em Alagoas",
+          "Chapada Diamantina, na Bahia",
+          "Recife, em Pernambuco"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "A Serra da Barriga, no atual estado de Alagoas."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "brasil-e-guiana-francesa",
+    "titulo": "Brasil e Guiana Francesa: a invasão e a papelada",
+    "area": "Geopolítica",
+    "categoria": "Geopolítica",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-21",
+    "imagemCapa": "./assets/capas/brasil-e-guiana-francesa-capa.webp",
+    "textoCompletoBackup": "## 1713 · Tratado de Utrecht\n\nJá contamos aqui que o Brasil faz fronteira com a França. Só não contamos o tanto de papelada que essa fronteira deu. Tudo começou em mil setecentos e treze, no Tratado de Utrecht. Ele citava um rio como limite, o Japoc. O problema? Ninguém concordava onde ficava o Japoc. Dois países, um rio no papel e nenhum mapa que resolvesse.\n\n## Passam-se os anos\n\nPassam-se os anos. Napoleão invade Portugal, e a Corte portuguesa se muda para o Brasil, em mil oitocentos e oito. Agora pense: você é o príncipe regente, exilado no Rio, com o inimigo em casa. Você revida ou fica quieto? Ele revidou. Mandou o governador do Pará atacar a Guiana Francesa.\n\n## jan 1809 · Caiena\n\nCom a ajuda de navios britânicos, em janeiro de mil oitocentos e nove, tropas luso-brasileiras tomaram Caiena. O governador francês, Victor Hugues, capitulou em doze de janeiro. Mas Caiena guardava outro tesouro: plantas. Noz-moscada, cravo, fruta-pão e a cana caiena seguiram para o Brasil.\n\n## 21 nov 1817 · a devolução da Guiana\n\nEntre elas, a palmeira imperial do Jardim Botânico do Rio. Reza a lenda que o príncipe a plantou pessoalmente. Foi, digamos, a invasão mais botânica da história. Os portugueses ficaram em Caiena até mil oitocentos e dezessete. A devolução à França foi em vinte e um de novembro. Hoje faz duzentos e nove anos.\n\n## 1895 · Amapá\n\nFoi o Congresso de Viena que mandou devolver a Guiana, até o rio Oiapoque. Só que faltava combinar qual rio era o Oiapoque. E a papelada continuou. Em mil oitocentos e noventa e cinco, foi a França que entrou no Amapá.\n\n## Cerca de cento e trinta soldados chegaram\n\nCerca de cento e trinta soldados chegaram para prender um líder brasileiro, o Cabralzinho. Houve combate. O capitão francês morreu e, segundo um registro do Senado, trinta e oito brasileiros também. Os dois países assinaram um tratado de arbitragem, em mil oitocentos e noventa e sete. A decisão ficou com a Suíça.\n\n## 1900 · laudo suíço\n\nEm mil e novecentos, o árbitro suíço Walter Hauser deu a sentença. O Brasil, defendido pelo Barão do Rio Branco, ficou com a maior parte da área. O Oiapoque virou o limite. E a papelada, finalmente, acabou. Hoje, o Brasil e a França dividem cerca de setecentos e trinta quilômetros de fronteira. E uma única ponte.\n\n## O Brasil já tomou Caiena\n\nO Brasil já tomou Caiena, a França já entrou no Amapá, e quem resolveu foi a Suíça. Quem diria. Qual parte dessa história mais te surpreendeu? Conta nos comentários. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-01.webp",
+        "tituloCard": "1713 · Tratado de Utrecht",
+        "textoCard": "Já contamos aqui que o Brasil faz fronteira com a França."
+      },
+      {
+        "ordem": 2,
+        "cenario": "palacio-imperial",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-02.webp",
+        "tituloCard": "Passam-se os anos",
+        "textoCard": "Passam-se os anos."
+      },
+      {
+        "ordem": 3,
+        "cenario": "caiena-1809",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-03.webp",
+        "tituloCard": "jan 1809 · Caiena",
+        "textoCard": "Com a ajuda de navios britânicos, em janeiro de mil oitocentos e nove, tropas luso-brasileiras tomaram Caiena."
+      },
+      {
+        "ordem": 4,
+        "cenario": "jardim-botanico-1809",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-04.webp",
+        "tituloCard": "21 nov 1817 · a devolução da Guiana",
+        "textoCard": "Entre elas, a palmeira imperial do Jardim Botânico do Rio."
+      },
+      {
+        "ordem": 5,
+        "cenario": "mapa-da-fronteira",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-05.webp",
+        "tituloCard": "1895 · Amapá",
+        "textoCard": "Foi o Congresso de Viena que mandou devolver a Guiana, até o rio Oiapoque. Só que faltava combinar qual rio era o Oiapoque. E a papelada continuou. Em mil oitocentos e noventa e cinco, foi a França que entrou no Amapá."
+      },
+      {
+        "ordem": 6,
+        "cenario": "amapa-1895",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-06.webp",
+        "tituloCard": "Cerca de cento e trinta soldados chegaram",
+        "textoCard": "Cerca de cento e trinta soldados chegaram para prender um líder brasileiro, o Cabralzinho."
+      },
+      {
+        "ordem": 7,
+        "cenario": "sala-de-arbitragem-1900",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-07.webp",
+        "tituloCard": "1900 · laudo suíço",
+        "textoCard": "Em mil e novecentos, o árbitro suíço Walter Hauser deu a sentença."
+      },
+      {
+        "ordem": 8,
+        "cenario": "rio-oiapoque",
+        "imagemUrl": "./assets/aulas/brasil-e-guiana-francesa-08.webp",
+        "tituloCard": "O Brasil já tomou Caiena",
+        "textoCard": "O Brasil já tomou Caiena, a França já entrou no Amapá, e quem resolveu foi a Suíça. Quem diria. Qual parte dessa história mais te surpreendeu? Conta nos comentários. Segue para ficar por dentro do Mundo."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Qual rio, citado no Tratado de Utrecht (1713), ninguém sabia onde ficava?",
+        "opcoes": [
+          "Amazonas",
+          "Japoc",
+          "Tocantins"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "O Japoc era o limite no papel, mas nenhum mapa resolvia onde ele ficava."
+      },
+      {
+        "pergunta": "O que a Corte portuguesa levou de Caiena para o Brasil?",
+        "opcoes": [
+          "Plantas como noz-moscada e cravo",
+          "Ouro",
+          "Navios de guerra"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Entre elas, a palmeira imperial do Jardim Botânico do Rio."
+      },
+      {
+        "pergunta": "Quem decidiu a disputa de limites entre Brasil e França?",
+        "opcoes": [
+          "A Inglaterra",
+          "Os Estados Unidos",
+          "A Suíça"
+        ],
+        "indiceCorreto": 2,
+        "explicacao": "O árbitro suíço Walter Hauser deu a sentença em 1900, favorável ao Brasil."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "eua-x-china",
+    "titulo": "EUA x China: a disputa pelo topo do mundo",
+    "area": "Geopolítica",
+    "categoria": "Geopolítica",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-22",
+    "imagemCapa": "./assets/capas/eua-x-china-capa.webp",
+    "textoCompletoBackup": "## Existe uma pausa que o mundo inteiro observa\n\nExiste uma pausa que o mundo inteiro observa. A trégua entre Estados Unidos e China vale até dez de janeiro de dois mil e vinte e sete. Por trás dela, uma disputa: quem lidera o mundo neste século. Os Estados Unidos lideram há décadas. A China cresce e quer um lugar na frente. Quando os dois se esbarram, o mundo sente.\n\n## out 2025 · trégua de Busan\n\nA disputa tem quatro frentes: comércio, minerais, chips e Taiwan. Primeira, o comércio. Os dois lados já cobraram tarifas altas um do outro, e isso encareceu muita coisa. Em outubro de dois mil e vinte e cinco, em Busan, na Coreia do Sul, Trump e Xi fecharam uma trégua de um ano.\n\n## Os americanos recuaram da ameaça de tarifa\n\nOs americanos recuaram da ameaça de tarifa de cem por cento. Os chineses adiaram novas travas nas exportações de minerais. Segunda frente, as terras raras. São minerais usados em ímãs de carros, equipamentos militares e chips. E a China tem a chave de boa parte dessa cadeia. Quando aperta ou afrouxa as exportações, a indústria do mundo treme.\n\n## 10 jan 2027 · fim da pausa\n\nA pausa acabaria em dez de novembro, e foi prorrogada horas antes, até dez de janeiro. Terceira frente, os chips. Quem domina os chips domina a inteligência artificial. Os Estados Unidos restringiram a venda de chips avançados à China. Mas, segundo a imprensa, liberaram alguns modelos da Nvidia para empresas chinesas.\n\n## 2/3 · dos chips sob encomenda\n\nE aí entra a frente mais delicada: Taiwan. Uma única empresa taiwanesa, a TSMC, responde por mais de dois terços dos chips fabricados sob encomenda no mundo. A China considera Taiwan parte do seu território. Os Estados Unidos vendem armas à ilha.\n\n## mai 2026 · Pequim\n\nEm maio, Xi avisou a Trump que um erro em Taiwan poderia criar uma situação muito perigosa. Segundo os relatos, um pacote de armas de catorze bilhões de dólares para Taiwan está parado. Trump o chamou de boa moeda de negociação. Agora pense: você lidera um país que vende para a China e depende da segurança dos Estados Unidos. Para quem você liga?\n\n## 2026 · visitas e nova reunião\n\nA resposta é difícil porque as duas economias estão entrelaçadas. Analistas dizem que separá-las por completo é improvável. Por isso, o que existe hoje não é paz nem guerra. É uma pausa, com data para acabar. Trump foi a Pequim em maio. Xi foi a Washington em setembro. E, segundo as notícias, uma nova reunião está prevista na cúpula da Apec, na China.\n\n## Dois rivais que se visitam\n\nDois rivais que se visitam, se avisam e prorrogam prazos. Parece briga de vizinhos que se encontram para discutir o muro. Quem vai liderar o mundo? Ninguém sabe. Mas essa disputa mexe no preço do seu celular, do seu carro e da sua conta. Você acha que os dois vão aprender a conviver, ou a pausa vai acabar? Conta nos comentários. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio",
+        "imagemUrl": "./assets/aulas/eua-x-china-01.webp",
+        "tituloCard": "Existe uma pausa que o mundo inteiro observa",
+        "textoCard": "Existe uma pausa que o mundo inteiro observa."
+      },
+      {
+        "ordem": 2,
+        "cenario": "mapa-mundi-eua-china",
+        "imagemUrl": "./assets/aulas/eua-x-china-02.webp",
+        "tituloCard": "out 2025 · trégua de Busan",
+        "textoCard": "A disputa tem quatro frentes: comércio, minerais, chips e Taiwan."
+      },
+      {
+        "ordem": 3,
+        "cenario": "sala-de-cupula",
+        "imagemUrl": "./assets/aulas/eua-x-china-03.webp",
+        "tituloCard": "Os americanos recuaram da ameaça de tarifa",
+        "textoCard": "Os americanos recuaram da ameaça de tarifa de cem por cento."
+      },
+      {
+        "ordem": 4,
+        "cenario": "mina-terras-raras",
+        "imagemUrl": "./assets/aulas/eua-x-china-04.webp",
+        "tituloCard": "10 jan 2027 · fim da pausa",
+        "textoCard": "A pausa acabaria em dez de novembro, e foi prorrogada horas antes, até dez de janeiro."
+      },
+      {
+        "ordem": 5,
+        "cenario": "estreito-de-taiwan",
+        "imagemUrl": "./assets/aulas/eua-x-china-05.webp",
+        "tituloCard": "2/3 · dos chips sob encomenda",
+        "textoCard": "E aí entra a frente mais delicada: Taiwan."
+      },
+      {
+        "ordem": 6,
+        "cenario": "sala-de-cupula",
+        "imagemUrl": "./assets/aulas/eua-x-china-06.webp",
+        "tituloCard": "mai 2026 · Pequim",
+        "textoCard": "Em maio, Xi avisou a Trump que um erro em Taiwan poderia criar uma situação muito perigosa."
+      },
+      {
+        "ordem": 7,
+        "cenario": "mapa-mundi-eua-china",
+        "imagemUrl": "./assets/aulas/eua-x-china-07.webp",
+        "tituloCard": "2026 · visitas e nova reunião",
+        "textoCard": "A resposta é difícil porque as duas economias estão entrelaçadas."
+      },
+      {
+        "ordem": 8,
+        "cenario": "sala-de-cupula",
+        "imagemUrl": "./assets/aulas/eua-x-china-08.webp",
+        "tituloCard": "Dois rivais que se visitam",
+        "textoCard": "Dois rivais que se visitam, se avisam e prorrogam prazos."
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Até quando vale a trégua entre EUA e China, segundo o vídeo?",
+        "opcoes": [
+          "10 de janeiro de 2027",
+          "10 de novembro de 2026",
+          "31 de dezembro de 2025"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "A pausa foi prorrogada horas antes do prazo de 10 de novembro."
+      },
+      {
+        "pergunta": "Quais são as quatro frentes da disputa?",
+        "opcoes": [
+          "Comércio, minerais, chips e Taiwan",
+          "Petróleo, gás, soja e carros",
+          "Armas, clima, saúde e esportes"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Comércio, terras raras (minerais), chips e Taiwan."
+      },
+      {
+        "pergunta": "Que empresa taiwanesa fabrica mais de dois terços dos chips sob encomenda do mundo?",
+        "opcoes": [
+          "Nvidia",
+          "TSMC",
+          "Huawei"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "A TSMC, o que torna Taiwan o ponto mais delicado da disputa."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  },
+  {
+    "id": "enchente-de-cerveja-de-londres",
+    "titulo": "A enchente de cerveja de Londres",
+    "area": "Curiosidades",
+    "categoria": "Curiosidades",
+    "tempoLeituraMinutos": 2,
+    "dataPublicacao": "2026-11-10",
+    "imagemCapa": "./assets/capas/enchente-de-cerveja-de-londres-capa.webp",
+    "textoCompletoBackup": "## 17 out 1814 · Londres\n\nLondres, outubro de mil oitocentos e quatorze. De repente, uma onda de cerveja escura invade as ruas de um bairro pobre. Parece piada, mas foi uma das tragédias mais estranhas da história. E terminou com uma pergunta: quem paga por um acidente que ninguém planejou?\n\n## Tudo começa na cervejaria Horse Shoe\n\nTudo começa na cervejaria Horse Shoe, da família Meux, uma das maiores da cidade. Ali se fazia porter, uma cerveja escura e forte, muito popular entre os trabalhadores. Para fermentar tanta cerveja, a fábrica usava enormes cubas de madeira, presas por aros de ferro. Uma delas tinha cerca de seis metros de altura. Do outro lado do muro ficava St Giles, um bairro apinhado de famílias pobres, que muitas vezes moravam em porões.\n\n## 17 out 1814 · um aro se solta\n\nDia dezessete de outubro. No fim da tarde, um dos aros de ferro daquela cuba se solta. Dizem os registros que o problema foi notado e ninguém deu importância. Aros soltos, ao que parece, não eram novidade. Pouco depois, a cuba cede. A pressão derruba outras próximas, e centenas de milhares de litros de cerveja escapam de uma só vez.\n\n## A onda rompe a parede da cervejaria\n\nA onda rompe a parede da cervejaria e desce pela rua estreita, arrastando tijolos, madeira e tudo o que encontra pela frente. Casas pobres, muitas de porão, são atingidas em cheio. Quem estava dentro não teve tempo de reagir. Numa casa, uma mãe e a filha tomavam chá quando a parede cedeu. Eleanor Cooper, de quatorze anos, lavava panelas numa taverna e também morreu.\n\n## 8 mortos · em St Giles\n\nNo fim, oito pessoas morreram, entre mulheres e crianças. Algumas por afogamento, outras pelos escombros. Vizinhos correram para ajudar e tirar os feridos dos escombros, numa rua que, de repente, estava coberta de cerveja.\n\n## inquérito · dois dias depois\n\nDois dias depois, um júri se reúne para investigar o caso, com os corpos ainda sendo reconhecidos. O veredicto: os mortos perderam a vida por acidente e infortúnio. Nenhum culpado, nenhum responsável. Nos relatos populares, isso virou um ato de Deus, uma tragédia sem dono.\n\n## 1815 · lei dos impostos\n\nDizem os registros que as famílias não receberam indenização. Já a cervejaria pediu ao Parlamento o reembolso dos impostos sobre a cerveja perdida, e uma lei de mil oitocentos e quinze lhe deu esse benefício. A cervejaria continuou funcionando por mais um século. Foi demolida só em mil novecentos e vinte e dois. Hoje, onde ficava a cervejaria, existe o teatro Dominion. Quase nada lembra o que aconteceu ali.\n\n## A enchente de cerveja foi estranha\n\nA enchente de cerveja foi estranha, mas também mostrou algo sério: quando o risco nasce de uma fábrica, quem deveria responder? E se você morasse naquela rua? Conta aqui nos comentários o que você acha que seria justo. Segue para ficar por dentro do Mundo.",
+    "paginas": [
+      {
+        "ordem": 1,
+        "cenario": "estudio (estudio do PROF)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-01.webp",
+        "tituloCard": "17 out 1814 · Londres",
+        "textoCard": "Londres, outubro de mil oitocentos e quatorze."
+      },
+      {
+        "ordem": 2,
+        "cenario": "cervejaria-horse-shoe (NOVO: interior da cervejaria, cubas gigantes com aros de ferro)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-02.webp",
+        "tituloCard": "Tudo começa na cervejaria Horse Shoe",
+        "textoCard": "Tudo começa na cervejaria Horse Shoe, da família Meux, uma das maiores da cidade."
+      },
+      {
+        "ordem": 3,
+        "cenario": "cervejaria-horse-shoe (NOVO: interior da cervejaria, cubas gigantes com aros de ferro)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-03.webp",
+        "tituloCard": "17 out 1814 · um aro se solta",
+        "textoCard": "Dia dezessete de outubro."
+      },
+      {
+        "ordem": 4,
+        "cenario": "rua-st-giles-onda (NOVO: a mesma rua com a onda de cerveja descendo)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-04.webp",
+        "tituloCard": "A onda rompe a parede da cervejaria",
+        "textoCard": "A onda rompe a parede da cervejaria e desce pela rua estreita, arrastando tijolos, madeira e tudo o que encontra pela frente."
+      },
+      {
+        "ordem": 5,
+        "cenario": "rua-st-giles-lama (NOVO: a rua depois da enchente, poças e entulho)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-05.webp",
+        "tituloCard": "8 mortos · em St Giles",
+        "textoCard": "No fim, oito pessoas morreram, entre mulheres e crianças. Algumas por afogamento, outras pelos escombros. Vizinhos correram para ajudar e tirar os feridos dos escombros, numa rua que, de repente, estava coberta de cerveja."
+      },
+      {
+        "ordem": 6,
+        "cenario": "tribunal-1814 (NOVO: sala do júri, bancada do juiz)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-06.webp",
+        "tituloCard": "inquérito · dois dias depois",
+        "textoCard": "Dois dias depois, um júri se reúne para investigar o caso, com os corpos ainda sendo reconhecidos."
+      },
+      {
+        "ordem": 7,
+        "cenario": "cervejaria-horse-shoe (NOVO: interior da cervejaria, cubas gigantes com aros de ferro)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-07.webp",
+        "tituloCard": "1815 · lei dos impostos",
+        "textoCard": "Dizem os registros que as famílias não receberam indenização."
+      },
+      {
+        "ordem": 8,
+        "cenario": "estudio (estudio do PROF)",
+        "imagemUrl": "./assets/aulas/enchente-de-cerveja-de-londres-08.webp",
+        "tituloCard": "A enchente de cerveja foi estranha",
+        "textoCard": "A enchente de cerveja foi estranha, mas também mostrou algo sério: quando o risco nasce de uma fábrica, quem deveria responder?"
+      }
+    ],
+    "youtubeUrl": "",
+    "quiz": [
+      {
+        "pergunta": "Em que ano ocorreu a enchente de cerveja em Londres?",
+        "opcoes": [
+          "1814",
+          "1914",
+          "1714"
+        ],
+        "indiceCorreto": 0,
+        "explicacao": "Dia 17 de outubro de 1814, na cervejaria Horse Shoe."
+      },
+      {
+        "pergunta": "Quantas pessoas morreram?",
+        "opcoes": [
+          "Três",
+          "Oito",
+          "Trinta"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Oito pessoas, entre mulheres e crianças."
+      },
+      {
+        "pergunta": "Qual foi o veredicto do júri dois dias depois?",
+        "opcoes": [
+          "Falha da cervejaria",
+          "Acidente e infortúnio, sem culpados",
+          "Sabotagem"
+        ],
+        "indiceCorreto": 1,
+        "explicacao": "Nos relatos populares, virou um ato de Deus. As famílias não receberam indenização."
+      }
+    ],
+    "pontosAConfirmar": [
+      "youtubeUrl pendente"
+    ]
+  }
+]
