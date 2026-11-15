@@ -1,0 +1,102 @@
+name: Gerar Cenarios e Info de Publicacao
+
+on:
+  push:
+    branches: [main]
+    paths: ['public/painel/roteiros.json']
+
+jobs:
+  gerar:
+    if: "!contains(github.event.head_commit.message, '[bot]')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Gerar cenarios e info de publicacao
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, requests, datetime
+
+          with open('public/painel/roteiros.json', 'r', encoding='utf-8') as f:
+              roteiros = json.load(f)
+
+          api_key = os.environ['GEMINI_API_KEY']
+          url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+          updated = False
+
+          for r in roteiros:
+              if r.get('status') != 'audio_aprovado':
+                  continue
+
+              roteiro_text = r.get('roteiro', '')
+              tema = r.get('tema', r.get('titulo', ''))
+
+              prompt = f"""Você é o diretor de arte e produtor do canal Mundo em Fatos.
+
+Com base neste roteiro de Short:
+"{roteiro_text}"
+
+Gere um JSON com as seguintes informações:
+
+{{
+  "cenarios": "descrição das cenas do vídeo — uma por linha, formato: CENA N: [descrição do fundo/ambiente] | [ação do PROF] | [duração aprox em seg]",
+  "sugestoes_titulo": ["título 1 chamativo (máx 60 chars)", "título 2 com curiosidade", "título 3 mais direto"],
+  "descricao": "descrição completa para YouTube/TikTok (2-3 parágrafos, inclui #hashtags no final)",
+  "tags": "tag1, tag2, tag3, tag4, tag5, mundoemfatos, historiacuriosa",
+  "instrucao_capa": "descrição objetiva para criar a capa: cor de fundo, elemento visual principal, texto em destaque"
+}}
+
+Responda APENAS com o JSON, sem markdown.
+"""
+
+              payload = {"contents": [{"parts": [{"text": prompt}]}]}
+              resp = requests.post(url, json=payload, timeout=30)
+              resp.raise_for_status()
+
+              text = resp.json()['candidates'][0]['content']['parts'][0]['text'].strip()
+              if text.startswith('```'):
+                  text = text.split('\n', 1)[1].rsplit('```', 1)[0].strip()
+
+              try:
+                  data = json.loads(text)
+                  r['cenarios'] = data.get('cenarios', '')
+                  r['sugestoes_titulo'] = data.get('sugestoes_titulo', [])
+                  if not r.get('publicacao'):
+                      r['publicacao'] = {}
+                  r['publicacao']['descricao'] = data.get('descricao', '')
+                  r['publicacao']['tags'] = data.get('tags', '')
+                  r['publicacao']['instrucao_capa'] = data.get('instrucao_capa', '')
+              except Exception as e:
+                  print(f"Erro ao parsear JSON: {e}")
+                  r['cenarios'] = text
+
+              r['status'] = 'montagem'
+              r['atualizado_em'] = datetime.date.today().isoformat()
+              updated = True
+              print(f"Info gerada para: {r.get('titulo', tema)}")
+
+          if updated:
+              with open('public/painel/roteiros.json', 'w', encoding='utf-8') as f:
+                  json.dump(roteiros, f, ensure_ascii=False, indent=2)
+              print("roteiros.json atualizado")
+          else:
+              print("Nenhum roteiro com status 'audio_aprovado' encontrado")
+          PYEOF
+
+      - name: Commit info
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/painel/roteiros.json
+          git diff --staged --quiet || git commit -m "bot: cenarios e info de publicacao gerados [bot]" && git push
