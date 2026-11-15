@@ -1,0 +1,28 @@
+[
+  {
+    "id": "anomalia-temporal-longo-01",
+    "titulo": "Anomalia Temporal — Episódio 1 (Longo)",
+    "tipo": "longo",
+    "status": "audio_pendente",
+    "tema": "Anomalia Temporal",
+    "episodio": 1,
+    "descricao": "Primeiro episódio da série sobre anomalias temporais. Roteiro pronto, aguardando geração de áudio.",
+    "falas": [],
+    "notas": "Áudio sendo produzido em partes (bloco PROF + ALUNO). Ver memória: Áudio em 2 partes por vídeo.",
+    "criado_em": "2026-11-15",
+    "atualizado_em": "2026-11-15"
+  },
+  {
+    "id": "anomalia-temporal-curto-01",
+    "titulo": "Anomalia Temporal — Curto (Teste)",
+    "tipo": "curto",
+    "status": "roteiro",
+    "tema": "Anomalia Temporal",
+    "episodio": 1,
+    "descricao": "Versão curta do episódio 1 para teste do painel.",
+    "falas": [],
+    "notas": "",
+    "criado_em": "2026-11-15",
+    "atualizado_em": "2026-11-15"
+  }
+]

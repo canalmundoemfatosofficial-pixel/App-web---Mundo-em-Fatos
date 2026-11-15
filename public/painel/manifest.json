@@ -1,0 +1,22 @@
+{
+  "name": "Painel — Mundo em Fatos",
+  "short_name": "MeF Painel",
+  "description": "Gestão de roteiros e produção do canal Mundo em Fatos",
+  "start_url": "/App-web---Mundo-em-Fatos/painel/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/App-web---Mundo-em-Fatos/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/App-web---Mundo-em-Fatos/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
