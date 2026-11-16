@@ -31,7 +31,10 @@ Gere um JSON com as seguintes informacoes:
 
 Responda APENAS com o JSON, sem markdown."""
 
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"thinkingConfig": {"thinkingBudget": 0}}
+    }
     resp = requests.post(url, json=payload, timeout=30)
     resp.raise_for_status()
 

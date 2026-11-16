@@ -51,7 +51,10 @@ Responda APENAS com o roteiro em formato JSON assim:
 {{"roteiro": "fala completa aqui em texto corrido com cada turno separado por dois saltos de linha"}}"""
 
     try:
-        payload = {"contents": [{"parts": [{"text": prompt}]}]}
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"thinkingConfig": {"thinkingBudget": 0}}
+        }
         resp = requests.post(url, json=payload, timeout=90)
         print(f"Status HTTP: {resp.status_code}")
         if resp.status_code != 200:
