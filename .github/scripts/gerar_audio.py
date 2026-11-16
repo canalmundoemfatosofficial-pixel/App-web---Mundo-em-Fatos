@@ -1,6 +1,6 @@
 import json, os, requests, base64, datetime
 
-with open('public/painel/roteiros.json', 'r', encoding='utf-8') as f:
+with open('public/painel/roteiros.json', 'r', encoding='utf-8-sig') as f:
     roteiros = json.load(f)
 
 api_key = os.environ['GEMINI_API_KEY']

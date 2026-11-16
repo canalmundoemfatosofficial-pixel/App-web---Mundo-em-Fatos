@@ -3,7 +3,7 @@ import json, os, sys, traceback, requests, datetime
 print("=== INICIO gerar_roteiro.py ===")
 
 try:
-    with open('public/painel/roteiros.json', 'r', encoding='utf-8') as f:
+    with open('public/painel/roteiros.json', 'r', encoding='utf-8-sig') as f:
         roteiros = json.load(f)
     print(f"JSON carregado: {type(roteiros).__name__}, itens: {len(roteiros) if isinstance(roteiros, list) else 'N/A (nao e lista!)'}")
 except Exception as e:
