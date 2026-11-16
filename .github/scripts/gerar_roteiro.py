@@ -46,7 +46,8 @@ Responda APENAS com o roteiro em formato JSON assim:
         resp = requests.post(url, json=payload, timeout=30)
         print(f"Status HTTP: {resp.status_code}")
         if resp.status_code != 200:
-            print(f"Resposta de erro: {resp.text[:500]}")
+            err = resp.text[:800]
+            print(f"::error::HTTP {resp.status_code} - {err}")
         resp.raise_for_status()
 
         text = resp.json()['candidates'][0]['content']['parts'][0]['text'].strip()
