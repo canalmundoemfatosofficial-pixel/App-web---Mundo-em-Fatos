@@ -16,6 +16,15 @@ if not api_key:
     sys.exit(1)
 print(f"GEMINI_API_KEY encontrada (tamanho: {len(api_key)})")
 
+# Listar modelos disponíveis
+list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
+list_resp = requests.get(list_url, timeout=10)
+if list_resp.status_code == 200:
+    models = [m['name'] for m in list_resp.json().get('models', []) if 'generateContent' in m.get('supportedGenerationMethods', [])]
+    print(f"Modelos para generateContent: {models[:10]}")
+else:
+    print(f"Nao foi possivel listar modelos: {list_resp.status_code}")
+
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 updated = False
 
@@ -46,8 +55,11 @@ Responda APENAS com o roteiro em formato JSON assim:
         resp = requests.post(url, json=payload, timeout=30)
         print(f"Status HTTP: {resp.status_code}")
         if resp.status_code != 200:
-            err = resp.text[:800]
-            print(f"::error::HTTP {resp.status_code} - {err}")
+            err = resp.text[:1200]
+            # Print each line as annotation for visibility
+            for line in err.split('\n')[:8]:
+                if line.strip():
+                    print(f"::error::{line}")
         resp.raise_for_status()
 
         text = resp.json()['candidates'][0]['content']['parts'][0]['text'].strip()
