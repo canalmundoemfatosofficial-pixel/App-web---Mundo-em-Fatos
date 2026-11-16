@@ -25,7 +25,7 @@ if list_resp.status_code == 200:
 else:
     print(f"Nao foi possivel listar modelos: {list_resp.status_code}")
 
-url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key={api_key}"
 updated = False
 
 for r in roteiros:
