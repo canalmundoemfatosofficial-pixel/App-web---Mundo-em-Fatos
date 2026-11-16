@@ -22,6 +22,17 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
+      - name: Verificar secret
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY nao configurada! Va em Settings > Secrets > Actions e adicione a secret."
+            exit 1
+          else
+            echo "GEMINI_API_KEY encontrada (${#GEMINI_API_KEY} chars)"
+          fi
+
       - name: Gerar roteiro com Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
