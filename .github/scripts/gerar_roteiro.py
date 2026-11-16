@@ -16,7 +16,7 @@ if not api_key:
     sys.exit(1)
 print(f"GEMINI_API_KEY encontrada (tamanho: {len(api_key)})")
 
-url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 updated = False
 
 for r in roteiros:

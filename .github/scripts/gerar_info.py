@@ -4,7 +4,7 @@ with open('public/painel/roteiros.json', 'r', encoding='utf-8-sig') as f:
     roteiros = json.load(f)
 
 api_key = os.environ['GEMINI_API_KEY']
-url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 updated = False
 
 for r in roteiros:
