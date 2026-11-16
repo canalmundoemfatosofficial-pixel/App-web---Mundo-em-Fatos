@@ -52,7 +52,7 @@ Responda APENAS com o roteiro em formato JSON assim:
 
     try:
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
-        resp = requests.post(url, json=payload, timeout=30)
+        resp = requests.post(url, json=payload, timeout=90)
         print(f"Status HTTP: {resp.status_code}")
         if resp.status_code != 200:
             err = resp.text[:1200]
