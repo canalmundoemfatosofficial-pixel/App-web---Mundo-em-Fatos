@@ -22,29 +22,10 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Verificar secret
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::error::GEMINI_API_KEY nao configurada! Va em Settings > Secrets > Actions e adicione a secret."
-            exit 1
-          else
-            echo "GEMINI_API_KEY encontrada (${#GEMINI_API_KEY} chars)"
-          fi
-
       - name: Gerar roteiro com Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 .github/scripts/gerar_roteiro.py 2>&1 | tee public/painel/debug.log; exit ${PIPESTATUS[0]}
-
-      - name: Mostrar log de erro
-        if: failure()
-        run: |
-          echo "::group::Log do script Python"
-          cat public/painel/debug.log || echo "(sem log)"
-          echo "::endgroup::"
-          head -c 500 public/painel/debug.log | while IFS= read -r line; do echo "::error::$line"; done
+        run: python3 .github/scripts/gerar_roteiro.py
 
       - name: Commit roteiro
         run: |
