@@ -1,9 +1,21 @@
-import json, os, requests, datetime
+import json, os, sys, traceback, requests, datetime
 
-with open('public/painel/roteiros.json', 'r', encoding='utf-8') as f:
-    roteiros = json.load(f)
+print("=== INICIO gerar_roteiro.py ===")
 
-api_key = os.environ['GEMINI_API_KEY']
+try:
+    with open('public/painel/roteiros.json', 'r', encoding='utf-8') as f:
+        roteiros = json.load(f)
+    print(f"JSON carregado: {type(roteiros).__name__}, itens: {len(roteiros) if isinstance(roteiros, list) else 'N/A (nao e lista!)'}")
+except Exception as e:
+    print(f"ERRO ao ler JSON: {e}")
+    sys.exit(1)
+
+api_key = os.environ.get('GEMINI_API_KEY', '')
+if not api_key:
+    print("ERRO: GEMINI_API_KEY nao encontrada nas variaveis de ambiente!")
+    sys.exit(1)
+print(f"GEMINI_API_KEY encontrada (tamanho: {len(api_key)})")
+
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 updated = False
 
@@ -13,6 +25,7 @@ for r in roteiros:
 
     tema = r.get('tema', r.get('titulo', ''))
     notas = r.get('notas', '')
+    print(f"Gerando roteiro para: {tema}")
 
     prompt = f"""Voce e o roteirista do canal Mundo em Fatos. Crie um roteiro de Short para o tema: "{tema}".
 
@@ -28,24 +41,32 @@ REGRAS:
 Responda APENAS com o roteiro em formato JSON assim:
 {{"roteiro": "fala completa aqui em texto corrido com cada turno separado por dois saltos de linha"}}"""
 
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-    resp = requests.post(url, json=payload, timeout=30)
-    resp.raise_for_status()
-
-    text = resp.json()['candidates'][0]['content']['parts'][0]['text'].strip()
-    if text.startswith('```'):
-        text = text.split('\n', 1)[1].rsplit('```', 1)[0].strip()
-
     try:
-        data = json.loads(text)
-        r['roteiro'] = data.get('roteiro', text)
-    except Exception:
-        r['roteiro'] = text
+        payload = {"contents": [{"parts": [{"text": prompt}]}]}
+        resp = requests.post(url, json=payload, timeout=30)
+        print(f"Status HTTP: {resp.status_code}")
+        if resp.status_code != 200:
+            print(f"Resposta de erro: {resp.text[:500]}")
+        resp.raise_for_status()
 
-    r['status'] = 'roteiro'
-    r['atualizado_em'] = datetime.date.today().isoformat()
-    updated = True
-    print(f"Roteiro gerado para: {r.get('titulo', tema)}")
+        text = resp.json()['candidates'][0]['content']['parts'][0]['text'].strip()
+        if text.startswith('```'):
+            text = text.split('\n', 1)[1].rsplit('```', 1)[0].strip()
+
+        try:
+            data = json.loads(text)
+            r['roteiro'] = data.get('roteiro', text)
+        except Exception:
+            r['roteiro'] = text
+
+        r['status'] = 'roteiro'
+        r['atualizado_em'] = datetime.date.today().isoformat()
+        updated = True
+        print(f"Roteiro gerado para: {r.get('titulo', tema)}")
+    except Exception as e:
+        print(f"ERRO na geracao: {e}")
+        traceback.print_exc()
+        sys.exit(1)
 
 if updated:
     with open('public/painel/roteiros.json', 'w', encoding='utf-8') as f:
@@ -53,3 +74,5 @@ if updated:
     print("roteiros.json atualizado")
 else:
     print("Nenhum roteiro com status 'tema' encontrado")
+
+print("=== FIM gerar_roteiro.py ===")
