@@ -36,7 +36,15 @@ jobs:
       - name: Gerar roteiro com Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 .github/scripts/gerar_roteiro.py
+        run: python3 .github/scripts/gerar_roteiro.py 2>&1 | tee public/painel/debug.log; exit ${PIPESTATUS[0]}
+
+      - name: Mostrar log de erro
+        if: failure()
+        run: |
+          echo "::group::Log do script Python"
+          cat public/painel/debug.log || echo "(sem log)"
+          echo "::endgroup::"
+          head -c 500 public/painel/debug.log | while IFS= read -r line; do echo "::error::$line"; done
 
       - name: Commit roteiro
         run: |
